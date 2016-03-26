@@ -29344,9 +29344,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="78.74" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="327.66" y1="27.94" x2="327.66" y2="48.26" width="0.1524" layer="91"/>
-<label x="327.66" y="48.26" size="1.778" layer="95" rot="R270"/>
-<pinref part="JP1" gate="G$1" pin="10"/>
+<pinref part="JP1" gate="G$1" pin="12"/>
+<wire x1="332.74" y1="48.26" x2="332.74" y2="27.94" width="0.1524" layer="91"/>
+<label x="332.74" y="48.26" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="PA09_TCC0-W1" class="0">
@@ -29549,9 +29549,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="73.66" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="332.74" y="48.26" size="1.778" layer="95" rot="R270"/>
-<wire x1="332.74" y1="27.94" x2="332.74" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="12"/>
+<pinref part="JP1" gate="G$1" pin="10"/>
+<wire x1="327.66" y1="48.26" x2="327.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="327.66" y="48.26" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="TARGET_USB_N" class="4">

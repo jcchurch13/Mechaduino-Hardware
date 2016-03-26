@@ -28806,6 +28806,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$3" library="stepper_servo_prototype_1" deviceset="TROPICAL_LABS_LOGO_1" device="LOGO2"/>
 <part name="J1" library="MF_Connectors" deviceset="USB" device="_MICRO_RIGHT"/>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
+<part name="R16" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="100k"/>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28890,7 +28892,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="81.28" y="325.12" size="1.778" layer="96"/>
 </instance>
 <instance part="Q2" gate="G$1" x="322.58" y="269.24" rot="MR0"/>
-<instance part="GND12" gate="1" x="322.58" y="259.08"/>
+<instance part="GND12" gate="1" x="322.58" y="251.46"/>
 <instance part="JP3" gate="A" x="317.5" y="228.6"/>
 <instance part="JP4" gate="G$1" x="261.62" y="363.22" rot="MR0"/>
 <instance part="SUPPLY3" gate="G$1" x="213.36" y="213.36" rot="MR90"/>
@@ -28982,6 +28984,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="J1" gate="G$1" x="58.42" y="-147.32"/>
 <instance part="FRAME1" gate="G$1" x="2.54" y="2.54"/>
 <instance part="FRAME1" gate="G$2" x="454.66" y="2.54"/>
+<instance part="R16" gate="G$1" x="335.28" y="264.16" rot="R90"/>
+<instance part="GND20" gate="1" x="335.28" y="251.46"/>
 </instances>
 <busses>
 </busses>
@@ -29084,7 +29088,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="322.58" y1="261.62" x2="322.58" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="254" x2="322.58" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -29175,6 +29179,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="533.4" y1="63.5" x2="541.02" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="335.28" y1="254" x2="335.28" y2="259.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -29219,8 +29228,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="330.2" y1="269.24" x2="342.9" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="269.24" x2="335.28" y2="269.24" width="0.1524" layer="91"/>
 <label x="342.9" y="269.24" size="1.778" layer="95" xref="yes"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="335.28" y1="269.24" x2="342.9" y2="269.24" width="0.1524" layer="91"/>
+<junction x="335.28" y="269.24"/>
 </segment>
 </net>
 <net name="3.3V" class="0">

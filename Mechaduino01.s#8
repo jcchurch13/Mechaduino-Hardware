@@ -28622,6 +28622,61 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="FRAME_C_L">
+<frame x1="0" y1="0" x2="558.8" y2="431.8" columns="11" rows="9" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME_C_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt; C Size , 17 x 22 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_C_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="DOCFIELD" x="452.12" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -28750,15 +28805,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="stepper_servo_prototype_1" deviceset="TROPICAL_LABS_LOGO_1" device="LOGO2"/>
 <part name="J1" library="MF_Connectors" deviceset="USB" device="_MICRO_RIGHT"/>
+<part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="302.26" y="10.16" size="1.778" layer="91">A0 = DAC</text>
 <text x="302.26" y="2.54" size="1.778" layer="91">All analog pins can be used as digital pins.</text>
-<text x="302.26" y="195.58" size="1.778" layer="91">Power pins compatible with Adafruit's Pro Trinket LiPo charge shield.</text>
 <text x="243.84" y="177.8" size="1.778" layer="91">LED draws 4mA.</text>
-<text x="109.22" y="144.78" size="1.778" layer="91">The Neutrino's SPI port has a 3V3 pin in place of the 5V pin present on the Zero!</text>
 <text x="302.26" y="7.62" size="1.778" layer="91">A2 is SS for SPI header.</text>
 <text x="302.26" y="187.96" size="1.778" layer="91">VOUT is the output of the TPS2115 and is actively limited to 500mA.</text>
 <text x="302.26" y="185.42" size="1.778" layer="91">If USB power is available, VOUT = USB; otherwise VOUT = VIN.</text>
@@ -28899,7 +28953,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="C12" gate="G$1" x="165.1" y="355.6"/>
 <instance part="C13" gate="G$1" x="175.26" y="353.06"/>
 <instance part="POWERCONNECTOR" gate="G$1" x="93.98" y="393.7"/>
-<instance part="U$2" gate="G$1" x="129.54" y="284.48"/>
+<instance part="U$2" gate="G$1" x="139.7" y="274.32"/>
 <instance part="U$4" gate="G$1" x="302.26" y="304.8"/>
 <instance part="R14" gate="G$1" x="68.58" y="360.68"/>
 <instance part="C14" gate="G$1" x="73.66" y="350.52"/>
@@ -28923,6 +28977,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="GND18" gate="1" x="177.8" y="322.58"/>
 <instance part="U$3" gate="G$1" x="154.94" y="269.24"/>
 <instance part="J1" gate="G$1" x="58.42" y="-147.32"/>
+<instance part="FRAME1" gate="G$1" x="2.54" y="2.54"/>
+<instance part="FRAME1" gate="G$2" x="454.66" y="2.54"/>
 </instances>
 <busses>
 </busses>
@@ -28952,7 +29008,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="233.68" y1="55.88" x2="233.68" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="53.34" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>

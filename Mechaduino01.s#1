@@ -28969,23 +28969,31 @@ USB cable sheild from
 acting like an antenna.</text>
 <text x="185.42" y="38.1" size="1.778" layer="91">The ID pin is for USB OTG.  The plug grounds the ID pin on the host side while the slave's ID pin is not connected.</text>
 <text x="185.42" y="35.56" size="1.778" layer="91">So if the A end of a USB OTG cable is inserted into the USB connector, Q1 allows power to flow from VIN to the USB device.  </text>
-<text x="345.44" y="111.76" size="3.81" layer="94" ratio="10">3.3V linear regulator</text>
+<text x="185.42" y="134.62" size="3.81" layer="94" ratio="10">3.3V linear regulator</text>
 <text x="185.42" y="33.02" size="1.778" layer="91">When in host mode it is necessary for you to supply 5V to VIN.</text>
 <text x="185.42" y="22.86" size="1.778" layer="91">When enabling host mode, the USB_HOST_EN pin goes low.</text>
 <text x="185.42" y="25.4" size="1.778" layer="91">Resistor R10 limits current if host pin goes high while USB ID pin is low.</text>
 <text x="185.42" y="20.32" size="1.778" layer="91">The inverter then pulls the enable pin on the load switch high.</text>
-<text x="185.42" y="17.78" size="1.778" layer="91">VIN is then shorted to USB, and the TPS2115 seeing VBUS high, switches from IN2 to IN1.</text>
 <text x="444.5" y="287.02" size="3.81" layer="94">Magnetic Encoder</text>
 <text x="144.78" y="370.84" size="3.81" layer="94">Arduino Zero</text>
 <text x="416.56" y="403.86" size="3.81" layer="94">PWM Motor Driver</text>
 <text x="68.58" y="134.62" size="2.54" layer="94" align="top-left">USB / Voltage Regulator</text>
-<text x="375.92" y="121.92" size="1.778" layer="97" rot="R180">VIN Range: 3.5-6.0V</text>
-<text x="360.68" y="76.2" size="1.778" layer="97" align="top-left">AP2112K-3.3V
+<text x="215.9" y="144.78" size="1.778" layer="97" rot="R180">VIN Range: 3.5-6.0V</text>
+<text x="200.66" y="99.06" size="1.778" layer="97" align="top-left">AP2112K-3.3V
 ----------------
 Iout (max): 600mA 
 Vin (max): 6.5V
 Vdrop (max): 250mV
 Iq: 55uA</text>
+<text x="109.22" y="43.18" size="1.778" layer="97" align="top-left">USB Host/Device Control
+-----------------------------
+- USB_ID High: Y high, Q1 off
+- USB_ID Low: Y low, Q1 on
+- Set USB_HOST_EN low to turn Q1
+  on and route power OUT the board.
+- USB_HOST_EN floating or HIGH
+  turns Q1 off. USB supply flows
+  through Q1 body diode.</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="332.74" y="223.52"/>
@@ -29058,19 +29066,19 @@ Iq: 55uA</text>
 <instance part="R10" gate="G$1" x="93.98" y="50.8" rot="R180"/>
 <instance part="R9" gate="G$1" x="99.06" y="78.74" rot="R90"/>
 <instance part="GND10" gate="1" x="73.66" y="86.36"/>
-<instance part="IC2" gate="G$1" x="370.84" y="91.44"/>
-<instance part="C9" gate="G$1" x="342.9" y="91.44"/>
-<instance part="C10" gate="G$1" x="386.08" y="91.44"/>
-<instance part="GND5" gate="1" x="386.08" y="83.82" smashed="yes">
-<attribute name="VALUE" x="383.54" y="81.28" size="1.778" layer="96"/>
+<instance part="IC2" gate="G$1" x="210.82" y="114.3"/>
+<instance part="C9" gate="G$1" x="182.88" y="114.3"/>
+<instance part="C10" gate="G$1" x="226.06" y="114.3"/>
+<instance part="GND5" gate="1" x="226.06" y="106.68" smashed="yes">
+<attribute name="VALUE" x="223.52" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="353.06" y="83.82" smashed="yes">
-<attribute name="VALUE" x="350.52" y="81.28" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="193.04" y="106.68" smashed="yes">
+<attribute name="VALUE" x="190.5" y="104.14" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="66.04" y="93.98" rot="R90"/>
-<instance part="SUPPLY2" gate="G$1" x="396.24" y="96.52" rot="R270"/>
-<instance part="GND19" gate="1" x="342.9" y="83.82" smashed="yes">
-<attribute name="VALUE" x="340.36" y="81.28" size="1.778" layer="96"/>
+<instance part="SUPPLY2" gate="G$1" x="246.38" y="124.46"/>
+<instance part="GND19" gate="1" x="182.88" y="106.68" smashed="yes">
+<attribute name="VALUE" x="180.34" y="104.14" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="441.96" y="358.14"/>
 <instance part="R12" gate="G$1" x="477.52" y="363.22"/>
@@ -29093,7 +29101,7 @@ Iq: 55uA</text>
 <instance part="C17" gate="G$1" x="495.3" y="248.92"/>
 <instance part="GND23" gate="1" x="485.14" y="236.22"/>
 <instance part="GND24" gate="1" x="495.3" y="236.22"/>
-<instance part="SJ1" gate="1" x="368.3" y="106.68"/>
+<instance part="SJ1" gate="1" x="208.28" y="129.54"/>
 <instance part="SUPPLY16" gate="G$1" x="381" y="327.66"/>
 <instance part="SUPPLY17" gate="G$1" x="388.62" y="327.66"/>
 <instance part="SUPPLY18" gate="G$1" x="439.42" y="340.36"/>
@@ -29117,7 +29125,7 @@ Iq: 55uA</text>
 <instance part="GND3" gate="1" x="104.14" y="58.42"/>
 <instance part="SUPPLY1" gate="G$1" x="134.62" y="71.12" rot="MR0"/>
 <instance part="SUPPLY14" gate="G$1" x="99.06" y="96.52"/>
-<instance part="SUPPLY15" gate="G$1" x="327.66" y="101.6"/>
+<instance part="SUPPLY15" gate="G$1" x="167.64" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -29235,18 +29243,18 @@ Iq: 55uA</text>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="386.08" y1="86.36" x2="386.08" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="109.22" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="342.9" y1="88.9" x2="342.9" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="111.76" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="360.68" y1="91.44" x2="353.06" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="91.44" x2="353.06" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="114.3" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="TEST"/>
@@ -29411,13 +29419,14 @@ Iq: 55uA</text>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
-<wire x1="378.46" y1="96.52" x2="386.08" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<wire x1="386.08" y1="96.52" x2="396.24" y2="96.52" width="0.1524" layer="91"/>
-<junction x="386.08" y="96.52"/>
+<wire x1="226.06" y1="119.38" x2="246.38" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="119.38" x2="246.38" y2="124.46" width="0.1524" layer="91"/>
+<junction x="226.06" y="119.38"/>
 <pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="373.38" y1="106.68" x2="386.08" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="106.68" x2="386.08" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="129.54" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="129.54" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ARDUINO_A0" class="0">
@@ -29928,20 +29937,20 @@ Iq: 55uA</text>
 </segment>
 <segment>
 <pinref part="SUPPLY15" gate="G$1" pin="VIN"/>
-<wire x1="327.66" y1="101.6" x2="327.66" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="124.46" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="IN"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="360.68" y1="96.52" x2="358.14" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="96.52" x2="342.9" y2="96.52" width="0.1524" layer="91"/>
-<junction x="342.9" y="96.52"/>
-<wire x1="358.14" y1="96.52" x2="358.14" y2="86.36" width="0.1524" layer="91"/>
-<junction x="358.14" y="96.52"/>
+<wire x1="200.66" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
+<junction x="182.88" y="119.38"/>
+<wire x1="198.12" y1="119.38" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+<junction x="198.12" y="119.38"/>
 <pinref part="IC2" gate="G$1" pin="EN"/>
-<wire x1="358.14" y1="86.36" x2="360.68" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="96.52" x2="358.14" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="119.38" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="358.14" y1="106.68" x2="363.22" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="96.52" x2="342.9" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
