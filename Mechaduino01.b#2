@@ -7628,7 +7628,7 @@ design rules under a new name.</description>
 <wire x1="20.6375" y1="39.0525" x2="19.05" y2="37.465" width="0.2032" layer="1"/>
 <wire x1="19.05" y1="37.465" x2="19.05" y2="36.576" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_D20_SDA">
+<signal name="SDA">
 <contactref element="IC1" pad="31"/>
 <contactref element="R8" pad="1"/>
 <wire x1="22.86" y1="26.67" x2="21.59" y2="27.94" width="0.2032" layer="16"/>
@@ -7642,7 +7642,7 @@ design rules under a new name.</description>
 <wire x1="22.86" y1="28.4425" x2="22.86" y2="26.67" width="0.2032" layer="1"/>
 <wire x1="22.86" y1="28.4425" x2="23.426" y2="28.8925" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_D21_SCL">
+<signal name="SCL">
 <contactref element="IC1" pad="32"/>
 <contactref element="R7" pad="1"/>
 <wire x1="25.4" y1="26.67" x2="23.749" y2="28.321" width="0.2032" layer="16"/>

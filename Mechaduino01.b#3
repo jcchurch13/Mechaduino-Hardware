@@ -7059,7 +7059,7 @@ design rules under a new name.</description>
 <wire x1="2.413" y1="21.59" x2="1.143" y2="22.86" width="0.2032" layer="1"/>
 <wire x1="3.937" y1="29.083" x2="4.35" y2="29.172" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_D13_SCK">
+<signal name="SCK">
 <contactref element="IC1" pad="26"/>
 <contactref element="JP2" pad="7"/>
 <wire x1="15.706128125" y1="32.85810625" x2="14.986" y2="32.137978125" width="0.2032" layer="1"/>
@@ -7211,7 +7211,7 @@ design rules under a new name.</description>
 <wire x1="25.781" y1="32.385" x2="25.852609375" y2="32.39546875" width="0.2032" layer="1"/>
 <wire x1="24.326" y1="28.8925" x2="24.95" y2="28.8925" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_D12_MISO">
+<signal name="MISO">
 <contactref element="IC1" pad="28"/>
 <contactref element="JP2" pad="6"/>
 <wire x1="16.413234375" y1="32.151" x2="16.9545" y2="32.692265625" width="0.2032" layer="1"/>
@@ -7221,7 +7221,7 @@ design rules under a new name.</description>
 <wire x1="17.018" y1="32.766" x2="17.018" y2="27.432" width="0.2032" layer="16"/>
 <wire x1="17.018" y1="27.432" x2="17.78" y2="26.67" width="0.2032" layer="16"/>
 </signal>
-<signal name="ARDUINO_D11_MOSI">
+<signal name="MOSI">
 <contactref element="IC1" pad="25"/>
 <contactref element="JP2" pad="5"/>
 <wire x1="15.24" y1="26.67" x2="16.637" y2="28.067" width="0.2032" layer="16"/>
@@ -7236,7 +7236,7 @@ design rules under a new name.</description>
 <wire x1="18.3526625" y1="33.5926625" x2="18.0975" y2="33.8455" width="0.2032" layer="16"/>
 <via x="18.3526625" y="33.5926625" extent="1-16" drill="0.3048"/>
 </signal>
-<signal name="ARDUINO_D10_SS">
+<signal name="SS">
 <contactref element="IC1" pad="27"/>
 <contactref element="JP2" pad="4"/>
 <wire x1="12.7" y1="26.67" x2="12.7" y2="28.6385" width="0.2032" layer="16"/>
@@ -7303,7 +7303,7 @@ design rules under a new name.</description>
 <wire x1="26.95144375" y1="37.30194375" x2="26.3525" y2="36.703" width="0.2032" layer="1"/>
 <wire x1="26.3525" y1="36.703" x2="25.984525" y2="36.702671875" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_A0">
+<signal name="PA02_AIN0">
 <contactref element="IC1" pad="3"/>
 <contactref element="JP1" pad="2"/>
 <wire x1="35.56" y1="41.91" x2="33.655" y2="40.005" width="0.2032" layer="16"/>
@@ -7316,7 +7316,7 @@ design rules under a new name.</description>
 <wire x1="23.3045" y1="35.1155" x2="22.606" y2="35.814" width="0.2032" layer="1"/>
 <via x="22.606" y="35.814" extent="1-16" drill="0.3048"/>
 </signal>
-<signal name="ARDUINO_AREF">
+<signal name="PA03_AREFA">
 <contactref element="IC1" pad="4"/>
 <contactref element="C4" pad="1"/>
 <wire x1="24.2267625" y1="36.428996875" x2="25.046446875" y2="37.24868125" width="0.2032" layer="1"/>
@@ -7329,7 +7329,7 @@ design rules under a new name.</description>
 <wire x1="37.338" y1="39.624" x2="27.051" y2="39.624" width="0.2032" layer="16"/>
 <wire x1="27.051" y1="39.624" x2="23.622" y2="36.195" width="0.2032" layer="16"/>
 </signal>
-<signal name="ARDUINO_A1">
+<signal name="PB08_AIN2">
 <contactref element="IC1" pad="7"/>
 <contactref element="JP1" pad="3"/>
 <wire x1="33.02" y1="41.91" x2="31.4325" y2="40.386" width="0.2032" layer="16"/>
@@ -7340,7 +7340,7 @@ design rules under a new name.</description>
 <wire x1="22.6695" y1="36.993053125" x2="22.6695" y2="36.7665" width="0.2032" layer="1"/>
 <via x="22.6695" y="36.7665" extent="1-16" drill="0.3048"/>
 </signal>
-<signal name="ARDUINO_A2">
+<signal name="PB09_AIN3">
 <contactref element="IC1" pad="8"/>
 <contactref element="JP1" pad="4"/>
 <wire x1="30.48" y1="41.91" x2="29.337" y2="40.767" width="0.2032" layer="16"/>
@@ -7353,7 +7353,7 @@ design rules under a new name.</description>
 <via x="21.9075" y="36.449" extent="1-16" drill="0.3048"/>
 <wire x1="21.9075" y1="36.938159375" x2="21.9075" y2="36.449" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_A3">
+<signal name="PA04_AIN4">
 <contactref element="IC1" pad="9"/>
 <contactref element="JP1" pad="5"/>
 <wire x1="27.94" y1="41.91" x2="27.051" y2="41.91" width="0.2032" layer="16"/>
@@ -7363,7 +7363,7 @@ design rules under a new name.</description>
 <via x="21.2725" y="37.0205" extent="1-16" drill="0.3048"/>
 <wire x1="22.458996875" y1="38.1967625" x2="21.2725" y2="37.0205" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_A4">
+<signal name="PA05_AIN5">
 <contactref element="IC1" pad="10"/>
 <contactref element="JP1" pad="6"/>
 <wire x1="25.4" y1="41.91" x2="21.59" y2="38.0365" width="0.2032" layer="16"/>
@@ -7372,7 +7372,7 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="38.034871875" x2="22.10544375" y2="38.550315625" width="0.2032" layer="1"/>
 <via x="21.3995" y="38.0365" extent="1-16" drill="0.3048"/>
 </signal>
-<signal name="ARDUINO_D4">
+<signal name="PA08_TCC0-W0">
 <contactref element="IC1" pad="13"/>
 <wire x1="16.51" y1="40.64" x2="19.05" y2="40.64" width="0.2032" layer="16"/>
 <via x="19.05" y="40.64" extent="1-16" drill="0.3048"/>
@@ -7381,7 +7381,7 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="12"/>
 <wire x1="10.16" y1="41.91" x2="16.51" y2="40.64" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="ARDUINO_D3">
+<signal name="PA09_TCC0-W1">
 <contactref element="IC1" pad="14"/>
 <contactref element="JP1" pad="11"/>
 <wire x1="12.7" y1="41.91" x2="14.605" y2="40.005" width="0.2032" layer="16"/>
@@ -7390,13 +7390,13 @@ design rules under a new name.</description>
 <wire x1="18.415" y1="40.005" x2="18.415" y2="39.37698125" width="0.2032" layer="1"/>
 <wire x1="18.415" y1="39.37698125" x2="18.88810625" y2="38.90386875" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_D1">
+<signal name="PA10_TCC0-W2">
 <contactref element="IC1" pad="15"/>
 <contactref element="JP1" pad="9"/>
 <wire x1="17.78" y1="41.91" x2="17.78" y2="39.304875" width="0.2032" layer="1"/>
 <wire x1="17.78" y1="39.304875" x2="18.534553125" y2="38.550315625" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_D0">
+<signal name="PA11_TCC0-W3">
 <contactref element="IC1" pad="16"/>
 <contactref element="JP1" pad="8"/>
 <wire x1="18.181" y1="38.1967625" x2="18.46826875" y2="37.9095" width="0.2032" layer="1"/>
@@ -7404,7 +7404,7 @@ design rules under a new name.</description>
 <wire x1="18.923" y1="37.9095" x2="20.32" y2="39.3065" width="0.2032" layer="1"/>
 <wire x1="20.32" y1="39.3065" x2="20.32" y2="41.91" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_D2">
+<signal name="PA14_TCC0-W4">
 <contactref element="IC1" pad="23"/>
 <wire x1="11.43" y1="40.64" x2="13.335" y2="40.64" width="0.2032" layer="16"/>
 <wire x1="15.706128125" y1="35.721890625" x2="15.113" y2="36.315025" width="0.2032" layer="1"/>
@@ -7416,7 +7416,7 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="10"/>
 <wire x1="13.335" y1="40.64" x2="15.24" y2="41.91" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="ARDUINO_D5">
+<signal name="PA15_TCC0-W5">
 <contactref element="IC1" pad="24"/>
 <contactref element="JP1" pad="13"/>
 <wire x1="7.62" y1="41.91" x2="8.89" y2="40.64" width="0.2032" layer="16"/>
@@ -7432,7 +7432,7 @@ design rules under a new name.</description>
 <via x="14.478" y="35.814" extent="1-16" drill="0.3048"/>
 <wire x1="13.843" y1="36.449" x2="14.478" y2="35.814" width="0.2032" layer="16"/>
 </signal>
-<signal name="ARDUINO_D6">
+<signal name="PA20_TCC0-W6">
 <contactref element="IC1" pad="29"/>
 <contactref element="JP1" pad="14"/>
 <wire x1="16.7667875" y1="31.797446875" x2="15.893840625" y2="30.9245" width="0.2032" layer="1"/>
@@ -7554,7 +7554,7 @@ design rules under a new name.</description>
 <wire x1="7.9375" y1="39.6875" x2="2.8575" y2="39.6875" width="0.2032" layer="16"/>
 <wire x1="10.795" y1="36.83" x2="10.795" y2="34.671" width="0.2032" layer="16"/>
 </signal>
-<signal name="ARDUINO_A5">
+<signal name="PB02_AIN10">
 <contactref element="IC1" pad="47"/>
 <contactref element="JP1" pad="7"/>
 <wire x1="22.86" y1="41.91" x2="22.86" y2="40.386" width="0.2032" layer="16"/>
@@ -7588,7 +7588,7 @@ design rules under a new name.</description>
 <signal name="DGI_GPIO0">
 <contactref element="IC1" pad="22"/>
 </signal>
-<signal name="ARDUINO_D7">
+<signal name="DGI_GPIO1">
 <contactref element="IC1" pad="30"/>
 <contactref element="JP2" pad="1"/>
 <wire x1="5.08" y1="26.67" x2="6.4135" y2="28.0035" width="0.2032" layer="1"/>
@@ -7600,7 +7600,7 @@ design rules under a new name.</description>
 <wire x1="15.9385" y1="30.262053125" x2="15.276053125" y2="30.262053125" width="0.2032" layer="1"/>
 <via x="15.276053125" y="30.262053125" extent="1-16" drill="0.3048"/>
 </signal>
-<signal name="ARDUINO_D8">
+<signal name="DGI_GPIO2">
 <contactref element="IC1" pad="11"/>
 <contactref element="JP2" pad="2"/>
 <wire x1="7.62" y1="26.67" x2="8.89" y2="27.94" width="0.2032" layer="16"/>
@@ -7615,7 +7615,7 @@ design rules under a new name.</description>
 <wire x1="19.685" y1="37.211" x2="17.5895" y2="37.211" width="0.2032" layer="16"/>
 <wire x1="17.5895" y1="37.211" x2="14.5415" y2="34.163" width="0.2032" layer="16"/>
 </signal>
-<signal name="ARDUINO_D9">
+<signal name="DGI_GPIO3">
 <contactref element="IC1" pad="12"/>
 <contactref element="JP2" pad="3"/>
 <wire x1="10.16" y1="26.67" x2="14.986" y2="31.496" width="0.2032" layer="16"/>
@@ -7628,7 +7628,7 @@ design rules under a new name.</description>
 <wire x1="20.6375" y1="39.0525" x2="19.05" y2="37.465" width="0.2032" layer="1"/>
 <wire x1="19.05" y1="37.465" x2="19.05" y2="36.576" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_D20_SDA">
+<signal name="SDA">
 <contactref element="IC1" pad="31"/>
 <contactref element="R8" pad="1"/>
 <wire x1="22.86" y1="26.67" x2="21.59" y2="27.94" width="0.2032" layer="16"/>
@@ -7642,7 +7642,7 @@ design rules under a new name.</description>
 <wire x1="22.86" y1="28.4425" x2="22.86" y2="26.67" width="0.2032" layer="1"/>
 <wire x1="22.86" y1="28.4425" x2="23.426" y2="28.8925" width="0.2032" layer="1"/>
 </signal>
-<signal name="ARDUINO_D21_SCL">
+<signal name="SCL">
 <contactref element="IC1" pad="32"/>
 <contactref element="R7" pad="1"/>
 <wire x1="25.4" y1="26.67" x2="23.749" y2="28.321" width="0.2032" layer="16"/>
