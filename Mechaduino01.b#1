@@ -10899,8 +10899,8 @@ design rules under a new name.</description>
 </element>
 <element name="C12" library="SparkFun-Capacitors" package="PANASONIC_D" value="100uF" x="12.065" y="12.065" smashed="yes"/>
 <element name="C13" library="swift" package="0603-CAP" value="1.0uF" x="6.858" y="11.43" smashed="yes" rot="R90"/>
-<element name="R12" library="adafruit" package="R1206" value=".15 Ohm" x="31.5087" y="5.455921875" smashed="yes" rot="R270"/>
-<element name="R13" library="adafruit" package="R1206" value=".15 Ohm" x="25.0317" y="5.4864" smashed="yes" rot="R270"/>
+<element name="R12" library="adafruit" package="R1206" value=".25 Ohm" x="31.5087" y="5.455921875" smashed="yes" rot="R270"/>
+<element name="R13" library="adafruit" package="R1206" value=".25 Ohm" x="25.0317" y="5.4864" smashed="yes" rot="R270"/>
 <element name="U$1" library="avagopack" package="TSSOP16" value="AVAGO_DRIVER" x="29.8577" y="13.3604" smashed="yes" rot="R180"/>
 <element name="MOTOR_POWER" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="13.2334" y="3.2893" smashed="yes">
 <attribute name="STOREFRONT_ID" value="PRT-08432" x="13.2334" y="3.2893" size="1.778" layer="27" display="off"/>
