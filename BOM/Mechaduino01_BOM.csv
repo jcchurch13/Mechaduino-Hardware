@@ -7,7 +7,7 @@ Qty	Value	Device	Package	Parts	Description
 1	M04PTH	1X04	JP6	Header	4											
 1	TACT_4.2MM	TACT4.2MM	SW2	Library:	MF_Switches											
 1	USB_MICRO_RIGHT	MICROUSB-RIGHT	J1	Library:	MF_Connectors											
-2	0.25	Ohm	R-US_R1206	R1206	R12	R13	RESISTOR	American	symbol							
+2	0.15	Ohm	R-US_R1206	R1206	R12	R13	RESISTOR	American	symbol							
 1	0.01uF	CAP0402	0402-CAP	C6	Capacitor											
 10	0.1uF	CAP0402	0402-CAP	C1	C2	C3	C4	C5	C9	C14	C15	C16	C19	Capacitor		
 1	1.0uF	CAP0603	0603-CAP	C13	Capacitor											
