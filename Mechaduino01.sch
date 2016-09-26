@@ -36761,7 +36761,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$3" library="stepper_servo_prototype_1" deviceset="TROPICAL_LABS_LOGO_1" device="LOGO3" value="TROPICAL_LABS_LOGO_1LOGO3"/>
 <part name="J1" library="MF_Connectors" deviceset="USB" device="_MICRO_RIGHT"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
-<part name="R16" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="100k"/>
+<part name="R16" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="100K"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="500mA"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="DMG2307L" value="2.5A/30V"/>
