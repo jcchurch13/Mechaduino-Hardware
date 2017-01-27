@@ -36942,7 +36942,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <instance part="GND10" gate="1" x="40.64" y="22.86"/>
 <instance part="IC2" gate="G$1" x="177.8" y="50.8"/>
 <instance part="C9" gate="G$1" x="149.86" y="50.8"/>
-<instance part="C10" gate="G$1" x="193.04" y="53.34"/>
+<instance part="C10" gate="G$1" x="193.04" y="50.8"/>
 <instance part="GND5" gate="1" x="193.04" y="43.18" smashed="yes">
 <attribute name="VALUE" x="190.5" y="40.64" size="1.778" layer="96"/>
 </instance>
@@ -37037,7 +37037,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <instance part="R20" gate="G$1" x="314.96" y="185.42" rot="R90"/>
 <instance part="R21" gate="G$1" x="330.2" y="185.42" rot="R90"/>
 <instance part="C6" gate="G$1" x="144.78" y="109.22"/>
-<instance part="C18" gate="G$1" x="142.24" y="53.34"/>
+<instance part="C18" gate="G$1" x="142.24" y="50.8"/>
 <instance part="C19" gate="G$1" x="203.2" y="50.8"/>
 <instance part="GND2" gate="1" x="142.24" y="43.18" smashed="yes">
 <attribute name="VALUE" x="139.7" y="40.64" size="1.778" layer="96"/>
@@ -37162,7 +37162,6 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="193.04" y1="48.26" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -37230,7 +37229,6 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="142.24" y1="48.26" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
@@ -37354,12 +37352,12 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
-<wire x1="185.42" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="55.88" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<wire x1="193.04" y1="55.88" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="53.34" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="55.88" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<junction x="193.04" y="55.88"/>
+<junction x="193.04" y="53.34"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 <junction x="203.2" y="55.88"/>
 </segment>
@@ -37917,10 +37915,10 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <junction x="165.1" y="55.88"/>
 <pinref part="IC2" gate="G$1" pin="EN"/>
 <wire x1="165.1" y1="45.72" x2="167.64" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="55.88" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
-<junction x="142.24" y="55.88"/>
+<wire x1="142.24" y1="53.34" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
+<junction x="142.24" y="53.34"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="VIN"/>
