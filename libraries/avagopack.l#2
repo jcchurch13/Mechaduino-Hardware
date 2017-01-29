@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -269,7 +269,7 @@ thin small outline package</description>
 <smd name="16" x="-2.225" y="3.05" dx="0.4" dy="1.6" layer="1"/>
 <text x="-1.524" y="-1.27" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.524" y="0.889" size="0.6096" layer="27">&gt;VALUE</text>
-<smd name="P$1" x="0" y="0" dx="3" dy="3" layer="1" rot="R180" thermals="no"/>
+<smd name="P$1" x="0" y="0" dx="3" dy="3" layer="1" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -318,29 +318,6 @@ thin small outline package</description>
 <connect gate="G$1" pin="OUT4" pad="15"/>
 <connect gate="G$1" pin="VBB" pad="9"/>
 <connect gate="G$1" pin="VBB2" pad="16"/>
-<connect gate="G$1" pin="VREF12" pad="7"/>
-<connect gate="G$1" pin="VREF34" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="THERM" package="TSSOP16_THERM">
-<connects>
-<connect gate="G$1" pin="GND" pad="1 P$1"/>
-<connect gate="G$1" pin="GND2" pad="8"/>
-<connect gate="G$1" pin="IN1" pad="6"/>
-<connect gate="G$1" pin="IN2" pad="5"/>
-<connect gate="G$1" pin="IN3" pad="3"/>
-<connect gate="G$1" pin="IN4" pad="4"/>
-<connect gate="G$1" pin="LSS12" pad="11"/>
-<connect gate="G$1" pin="LSS34" pad="14"/>
-<connect gate="G$1" pin="OUT1" pad="10"/>
-<connect gate="G$1" pin="OUT2" pad="12"/>
-<connect gate="G$1" pin="OUT3" pad="13"/>
-<connect gate="G$1" pin="OUT4" pad="15"/>
-<connect gate="G$1" pin="VBB" pad="9"/>
-<connect gate="G$1" pin="VBB2" pad="16" route="any"/>
 <connect gate="G$1" pin="VREF12" pad="7"/>
 <connect gate="G$1" pin="VREF34" pad="2"/>
 </connects>

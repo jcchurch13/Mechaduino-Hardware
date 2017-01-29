@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36749,9 +36749,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="swift" deviceset="CAP" device="0402" value="0.1uF"/>
-<part name="C17" library="swift" deviceset="CAP" device="0402" value="1uF"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND2" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND2" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="GND2" device=""/>
@@ -36975,9 +36973,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <instance part="JP6" gate="G$1" x="162.56" y="121.92" rot="MR0"/>
 <instance part="GND22" gate="1" x="218.44" y="104.14"/>
 <instance part="C16" gate="G$1" x="264.16" y="111.76"/>
-<instance part="C17" gate="G$1" x="271.78" y="111.76"/>
 <instance part="GND23" gate="1" x="264.16" y="104.14"/>
-<instance part="GND24" gate="1" x="271.78" y="104.14"/>
 <instance part="SUPPLY16" gate="G$1" x="48.26" y="96.52"/>
 <instance part="SUPPLY17" gate="G$1" x="55.88" y="96.52"/>
 <instance part="SUPPLY18" gate="G$1" x="93.98" y="104.14"/>
@@ -37187,11 +37183,6 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <wire x1="264.16" y1="106.68" x2="264.16" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="271.78" y1="106.68" x2="271.78" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SH1" gate="G$1" pin="P$2"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="276.86" y1="53.34" x2="269.24" y2="53.34" width="0.1524" layer="91"/>
@@ -37365,12 +37356,17 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="VDD3V"/>
-<wire x1="259.08" y1="127" x2="271.78" y2="127" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="116.84" x2="271.78" y2="127" width="0.1524" layer="91"/>
-<junction x="271.78" y="127"/>
+<wire x1="259.08" y1="127" x2="264.16" y2="127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
+<wire x1="264.16" y1="127" x2="271.78" y2="127" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="127" x2="271.78" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="VDD"/>
+<wire x1="259.08" y1="124.46" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="116.84" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="124.46" x2="264.16" y2="127" width="0.1524" layer="91"/>
+<junction x="264.16" y="124.46"/>
+<junction x="264.16" y="127"/>
 </segment>
 <segment>
 <pinref part="SUPPLY22" gate="G$1" pin="3.3V"/>
@@ -38019,14 +38015,6 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <pinref part="U$1" gate="G$1" pin="OUT2"/>
 <wire x1="157.48" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="VDD"/>
-<wire x1="259.08" y1="124.46" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="116.84" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">

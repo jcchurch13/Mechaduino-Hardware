@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -23,24 +23,24 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
@@ -21459,28 +21459,6 @@
 <text x="-2.8956" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="3.8862" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
-<package name="NEMA17_HOLE_PATTERN_2">
-<circle x="0" y="0" radius="0.508" width="0.127" layer="21"/>
-<wire x1="-21.15" y1="-21.15" x2="21.15" y2="-21.15" width="0.127" layer="249"/>
-<wire x1="21.15" y1="-21.15" x2="21.15" y2="21.15" width="0.127" layer="249"/>
-<wire x1="21.15" y1="21.15" x2="-21.15" y2="21.15" width="0.127" layer="249"/>
-<wire x1="-21.15" y1="21.15" x2="-21.15" y2="-21.15" width="0.127" layer="249"/>
-<wire x1="0" y1="0" x2="0" y2="0.676" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0.676" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.676" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-0.676" y2="0" width="0.127" layer="21"/>
-<hole x="-15.5" y="15.5" drill="3.2"/>
-<hole x="-15.5" y="-15.5" drill="3.2"/>
-<hole x="15.5" y="-15.5" drill="3.2"/>
-<hole x="15.5" y="15.5" drill="3.2"/>
-<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="41"/>
-<circle x="15.5" y="15.5" radius="3.25" width="0" layer="41"/>
-<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="41"/>
-<circle x="15.5" y="15.5" radius="3.25" width="0" layer="42"/>
-<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="42"/>
-<circle x="-15.5" y="-15.5" radius="3.25" width="0" layer="42"/>
-<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="42"/>
-</package>
 </packages>
 <symbols>
 <symbol name="AS5047">
@@ -21567,11 +21545,6 @@ Hole Pattern</text>
 </gates>
 <devices>
 <device name="" package="NEMA17_HOLE_PATTERN">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NEW" package="NEMA17_HOLE_PATTERN_2">
 <technologies>
 <technology name=""/>
 </technologies>
