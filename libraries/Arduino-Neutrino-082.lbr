@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -273,8 +273,206 @@
 </package>
 </packages>
 <symbols>
+<symbol name="CONNETTORI_PINHEAD_2X05_127">
+<rectangle x1="-1.524" y1="4.572" x2="-0.508" y2="5.588" layer="94"/>
+<rectangle x1="-1.524" y1="2.032" x2="-0.508" y2="3.048" layer="94"/>
+<rectangle x1="-1.524" y1="-0.508" x2="-0.508" y2="0.508" layer="94"/>
+<rectangle x1="-1.524" y1="-3.048" x2="-0.508" y2="-2.032" layer="94"/>
+<rectangle x1="-1.524" y1="-5.588" x2="-0.508" y2="-4.572" layer="94"/>
+<rectangle x1="0.508" y1="4.572" x2="1.524" y2="5.588" layer="94"/>
+<rectangle x1="0.508" y1="2.032" x2="1.524" y2="3.048" layer="94"/>
+<rectangle x1="0.508" y1="-0.508" x2="1.524" y2="0.508" layer="94"/>
+<rectangle x1="0.508" y1="-3.048" x2="1.524" y2="-2.032" layer="94"/>
+<rectangle x1="0.508" y1="-5.588" x2="1.524" y2="-4.572" layer="94"/>
+<wire x1="-2.54" y1="-6.604" x2="2.54" y2="-6.604" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="-6.604" x2="2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.858" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="6.858" x2="-1.524" y2="6.858" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.842" x2="-2.54" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.604" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.842" x2="-1.524" y2="6.858" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.016" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.016" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.016" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.016" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="1.016" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="94"/>
+<wire x1="1.016" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="94"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.127" layer="94"/>
+<wire x1="1.016" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="1.016" y1="-5.08" x2="2.54" y2="-5.08" width="0.127" layer="94"/>
+<pin name="1" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="7.239" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-8.89" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="INTEGRATEDCIRCUITS_ATSAMD21">
+<wire x1="-38.1" y1="40.64" x2="40.64" y2="40.64" width="0.254" layer="94"/>
+<wire x1="40.64" y1="40.64" x2="40.64" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-38.1" x2="-38.1" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="-38.1" x2="-38.1" y2="40.64" width="0.254" layer="94"/>
+<pin name="GND1" x="-43.18" y="-15.24" length="middle" direction="pwr"/>
+<pin name="GND2" x="45.72" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND3" x="45.72" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDANA" x="-43.18" y="22.86" length="middle" direction="pwr"/>
+<pin name="PA0/XIN32/EIC/SCOM1PAD0/TC2" x="-43.18" y="33.02" length="middle"/>
+<pin name="PA1/XOUT32/EIC/SCOM1PAD1/TC2" x="-43.18" y="30.48" length="middle"/>
+<pin name="PA2/EIC/AIN0" x="-43.18" y="27.94" length="middle"/>
+<pin name="PA3/EIC/REF/AIN1" x="-43.18" y="25.4" length="middle"/>
+<pin name="PA4/EIC/REF/AIN4/SCOM0PAD0/TC0" x="-43.18" y="12.7" length="middle"/>
+<pin name="PA5/EIC/AIN5/SCOM0PAD1/TC0" x="-43.18" y="10.16" length="middle"/>
+<pin name="PA6/EIC/AIN6/SCOM0PAD2/TC1" x="-43.18" y="7.62" length="middle"/>
+<pin name="PA7/EIC/AIN7/SCOM0PAD3/TC1" x="-43.18" y="5.08" length="middle"/>
+<pin name="PA8/I2C/AIN16/SCOM2PAD0+/TC0" x="-43.18" y="-2.54" length="middle"/>
+<pin name="PA9/I2C/EIC/AIN17/SCOM2PAD1+/TC0" x="-43.18" y="-5.08" length="middle"/>
+<pin name="PA10/EIC/AIN18/SCOM2PAD2+/TC1" x="-43.18" y="-7.62" length="middle"/>
+<pin name="PA11/EIC/AIN19/SCOM2PAD3+/TC1" x="-43.18" y="-10.16" length="middle"/>
+<pin name="PA12/I2C/EIC/SCOM2PAD0+/TC2" x="-43.18" y="-22.86" length="middle"/>
+<pin name="PA13/I2C/EIC/SCOM2PAD1+/TC2" x="-43.18" y="-25.4" length="middle"/>
+<pin name="PA14/XIN/EIC/SCOM2PAD2+/TC3" x="-43.18" y="-27.94" length="middle"/>
+<pin name="PA15/XOUT/EIC/SCOM2PAD3+/TC3" x="-43.18" y="-30.48" length="middle"/>
+<pin name="PA16/I2C/EIC/SCOM1PAD0+/TC2" x="45.72" y="-30.48" length="middle" rot="R180"/>
+<pin name="PA17/I2C/EIC/SCOM1PAD1+/TC2" x="45.72" y="-27.94" length="middle" rot="R180"/>
+<pin name="PA18/EIC/SCOM1PAD2+/TC3" x="45.72" y="-25.4" length="middle" rot="R180"/>
+<pin name="PA19/EIC/SCOM1PAD3+/TC3" x="45.72" y="-22.86" length="middle" rot="R180"/>
+<pin name="PA20/EIC/SCOM5PAD2+" x="45.72" y="-20.32" length="middle" rot="R180"/>
+<pin name="PA21/EIC/SCOM5PAD3+" x="45.72" y="-17.78" length="middle" rot="R180"/>
+<pin name="PA22/I2C/EIC/SCOM5PAD0+/TC4" x="45.72" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA23/I2C/EIC/SCOM5PAD1+/TC4" x="45.72" y="-12.7" length="middle" rot="R180"/>
+<pin name="PA24/EIC/SCOM3PAD2+/TC5" x="45.72" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA25/EIC/SCOM3PAD3+/TC5" x="45.72" y="-7.62" length="middle" rot="R180"/>
+<pin name="PA27/EIC" x="45.72" y="10.16" length="middle" rot="R180"/>
+<pin name="PA28/EIC" x="45.72" y="15.24" length="middle" rot="R180"/>
+<pin name="PA30/EIC/SCOM1PAD2/TC1" x="45.72" y="25.4" length="middle" rot="R180"/>
+<pin name="PA31/EIC/SCOM1PAD3/TC1" x="45.72" y="27.94" length="middle" rot="R180"/>
+<pin name="PB2/EIC/AIN10/SCOM5PAD0" x="45.72" y="30.48" length="middle" rot="R180"/>
+<pin name="PB3/EIC/AIN11/SCOM5PAD1" x="45.72" y="33.02" length="middle" rot="R180"/>
+<pin name="PB8/EIC/AIN2/SCOM4PAD0/TC4" x="-43.18" y="17.78" length="middle"/>
+<pin name="PB9/EIC/AIN3/SCOM4PAD1//TC4" x="-43.18" y="15.24" length="middle"/>
+<pin name="PB10/EIC/SCOM4PAD2/TC5" x="-43.18" y="-17.78" length="middle"/>
+<pin name="PB11/EIC/SCOM4PAD3/TC5" x="-43.18" y="-20.32" length="middle"/>
+<pin name="PB22/EIC/SCOM5PAD2" x="45.72" y="5.08" length="middle" rot="R180"/>
+<pin name="PB23/EIC/SCOM5PAD3" x="45.72" y="7.62" length="middle" rot="R180"/>
+<pin name="RESETN" x="45.72" y="12.7" length="middle" rot="R180"/>
+<pin name="VDDANA" x="-43.18" y="20.32" length="middle" direction="pwr"/>
+<pin name="VDDCORE1" x="45.72" y="20.32" length="middle" direction="in" rot="R180"/>
+<pin name="VDDIN" x="45.72" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDIO1" x="-43.18" y="-12.7" length="middle" direction="pwr"/>
+<pin name="VDDIO2" x="45.72" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<text x="-5.08" y="0" size="2.54" layer="95">&gt;NAME</text>
+<text x="-30.48" y="40.64" size="2.54" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="CONNETTORI_0171_PH127-205DF055G00A" prefix="CN" uservalue="yes">
+<description>2x5 PASSO 1,27</description>
+<gates>
+<gate name="G$1" symbol="CONNETTORI_PINHEAD_2X05_127" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONNETTORI_PINHEAD-2X5-P127">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="PINHEAD-2x5-P1.27" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INTEGRATEDCIRCUITS_1792_SAMD21G18A-AUT" prefix="IC">
+<description>Atmel D21 32bit ARM Cortex-M0  microcontroller - 48 PIN TQFP
+256KB flash memory + 32KB SRAM</description>
+<gates>
+<gate name="G$1" symbol="INTEGRATEDCIRCUITS_ATSAMD21" x="160.02" y="43.18"/>
+</gates>
+<devices>
+<device name="" package="INTEGRATEDCIRCUITS_TQFP48-7X7">
+<connects>
+<connect gate="G$1" pin="GND1" pad="18"/>
+<connect gate="G$1" pin="GND2" pad="35"/>
+<connect gate="G$1" pin="GND3" pad="42"/>
+<connect gate="G$1" pin="GNDANA" pad="5"/>
+<connect gate="G$1" pin="PA0/XIN32/EIC/SCOM1PAD0/TC2" pad="1"/>
+<connect gate="G$1" pin="PA1/XOUT32/EIC/SCOM1PAD1/TC2" pad="2"/>
+<connect gate="G$1" pin="PA10/EIC/AIN18/SCOM2PAD2+/TC1" pad="15"/>
+<connect gate="G$1" pin="PA11/EIC/AIN19/SCOM2PAD3+/TC1" pad="16"/>
+<connect gate="G$1" pin="PA12/I2C/EIC/SCOM2PAD0+/TC2" pad="21"/>
+<connect gate="G$1" pin="PA13/I2C/EIC/SCOM2PAD1+/TC2" pad="22"/>
+<connect gate="G$1" pin="PA14/XIN/EIC/SCOM2PAD2+/TC3" pad="23"/>
+<connect gate="G$1" pin="PA15/XOUT/EIC/SCOM2PAD3+/TC3" pad="24"/>
+<connect gate="G$1" pin="PA16/I2C/EIC/SCOM1PAD0+/TC2" pad="25"/>
+<connect gate="G$1" pin="PA17/I2C/EIC/SCOM1PAD1+/TC2" pad="26"/>
+<connect gate="G$1" pin="PA18/EIC/SCOM1PAD2+/TC3" pad="27"/>
+<connect gate="G$1" pin="PA19/EIC/SCOM1PAD3+/TC3" pad="28"/>
+<connect gate="G$1" pin="PA2/EIC/AIN0" pad="3"/>
+<connect gate="G$1" pin="PA20/EIC/SCOM5PAD2+" pad="29"/>
+<connect gate="G$1" pin="PA21/EIC/SCOM5PAD3+" pad="30"/>
+<connect gate="G$1" pin="PA22/I2C/EIC/SCOM5PAD0+/TC4" pad="31"/>
+<connect gate="G$1" pin="PA23/I2C/EIC/SCOM5PAD1+/TC4" pad="32"/>
+<connect gate="G$1" pin="PA24/EIC/SCOM3PAD2+/TC5" pad="33"/>
+<connect gate="G$1" pin="PA25/EIC/SCOM3PAD3+/TC5" pad="34"/>
+<connect gate="G$1" pin="PA27/EIC" pad="39"/>
+<connect gate="G$1" pin="PA28/EIC" pad="41"/>
+<connect gate="G$1" pin="PA3/EIC/REF/AIN1" pad="4"/>
+<connect gate="G$1" pin="PA30/EIC/SCOM1PAD2/TC1" pad="45"/>
+<connect gate="G$1" pin="PA31/EIC/SCOM1PAD3/TC1" pad="46"/>
+<connect gate="G$1" pin="PA4/EIC/REF/AIN4/SCOM0PAD0/TC0" pad="9"/>
+<connect gate="G$1" pin="PA5/EIC/AIN5/SCOM0PAD1/TC0" pad="10"/>
+<connect gate="G$1" pin="PA6/EIC/AIN6/SCOM0PAD2/TC1" pad="11"/>
+<connect gate="G$1" pin="PA7/EIC/AIN7/SCOM0PAD3/TC1" pad="12"/>
+<connect gate="G$1" pin="PA8/I2C/AIN16/SCOM2PAD0+/TC0" pad="13"/>
+<connect gate="G$1" pin="PA9/I2C/EIC/AIN17/SCOM2PAD1+/TC0" pad="14"/>
+<connect gate="G$1" pin="PB10/EIC/SCOM4PAD2/TC5" pad="19"/>
+<connect gate="G$1" pin="PB11/EIC/SCOM4PAD3/TC5" pad="20"/>
+<connect gate="G$1" pin="PB2/EIC/AIN10/SCOM5PAD0" pad="47"/>
+<connect gate="G$1" pin="PB22/EIC/SCOM5PAD2" pad="37"/>
+<connect gate="G$1" pin="PB23/EIC/SCOM5PAD3" pad="38"/>
+<connect gate="G$1" pin="PB3/EIC/AIN11/SCOM5PAD1" pad="48"/>
+<connect gate="G$1" pin="PB8/EIC/AIN2/SCOM4PAD0/TC4" pad="7"/>
+<connect gate="G$1" pin="PB9/EIC/AIN3/SCOM4PAD1//TC4" pad="8"/>
+<connect gate="G$1" pin="RESETN" pad="40"/>
+<connect gate="G$1" pin="VDDANA" pad="6"/>
+<connect gate="G$1" pin="VDDCORE1" pad="43"/>
+<connect gate="G$1" pin="VDDIN" pad="44"/>
+<connect gate="G$1" pin="VDDIO1" pad="17"/>
+<connect gate="G$1" pin="VDDIO2" pad="36"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="SAMD21G18A-AUT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

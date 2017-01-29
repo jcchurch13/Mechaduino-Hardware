@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -209,8 +209,60 @@ thin small outline package</description>
 </package>
 </packages>
 <symbols>
+<symbol name="AVAGODRIVER">
+<wire x1="-25.4" y1="12.7" x2="22.86" y2="12.7" width="0.254" layer="94"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-10.16" x2="-25.4" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="12.7" width="0.254" layer="94"/>
+<pin name="GND" x="-27.94" y="10.16" length="middle"/>
+<pin name="GND2" x="-27.94" y="-7.62" length="middle"/>
+<pin name="IN1" x="-27.94" y="-2.54" length="middle"/>
+<pin name="IN2" x="-27.94" y="0" length="middle"/>
+<pin name="IN3" x="-27.94" y="5.08" length="middle"/>
+<pin name="IN4" x="-27.94" y="2.54" length="middle"/>
+<pin name="LSS12" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="LSS34" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="OUT1" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="OUT2" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="OUT3" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="OUT4" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="VBB" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="VBB2" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="VREF12" x="-27.94" y="-5.08" length="middle"/>
+<pin name="VREF34" x="-27.94" y="7.62" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="AVAGO_DRIVER">
+<gates>
+<gate name="G$1" symbol="AVAGODRIVER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP16">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND2" pad="8"/>
+<connect gate="G$1" pin="IN1" pad="6"/>
+<connect gate="G$1" pin="IN2" pad="5"/>
+<connect gate="G$1" pin="IN3" pad="3"/>
+<connect gate="G$1" pin="IN4" pad="4"/>
+<connect gate="G$1" pin="LSS12" pad="11"/>
+<connect gate="G$1" pin="LSS34" pad="14"/>
+<connect gate="G$1" pin="OUT1" pad="10"/>
+<connect gate="G$1" pin="OUT2" pad="12"/>
+<connect gate="G$1" pin="OUT3" pad="13"/>
+<connect gate="G$1" pin="OUT4" pad="15"/>
+<connect gate="G$1" pin="VBB" pad="9"/>
+<connect gate="G$1" pin="VBB2" pad="16"/>
+<connect gate="G$1" pin="VREF12" pad="7"/>
+<connect gate="G$1" pin="VREF34" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
