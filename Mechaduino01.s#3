@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36749,9 +36749,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="swift" deviceset="CAP" device="0402" value="0.1uF"/>
-<part name="C17" library="swift" deviceset="CAP" device="0402" value="1uF"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND2" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND2" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="GND2" device=""/>
@@ -36823,6 +36821,11 @@ Source: AVX .. aphvc.pdf</description>
 <part name="V+" library="MF_Connectors" deviceset="HEADER_01X03" device="_PTH_2.54MM"/>
 <part name="U$5" library="stepper_servo_prototype_1" deviceset="MECHADUINO_LOGO" device=""/>
 <part name="SW2" library="MF_Switches" deviceset="TACT" device="_4.2MM"/>
+<part name="Q5" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
+<part name="SUPPLY26" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
+<part name="SUPPLY27" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -36975,9 +36978,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <instance part="JP6" gate="G$1" x="162.56" y="121.92" rot="MR0"/>
 <instance part="GND22" gate="1" x="218.44" y="104.14"/>
 <instance part="C16" gate="G$1" x="264.16" y="111.76"/>
-<instance part="C17" gate="G$1" x="271.78" y="111.76"/>
 <instance part="GND23" gate="1" x="264.16" y="104.14"/>
-<instance part="GND24" gate="1" x="271.78" y="104.14"/>
 <instance part="SUPPLY16" gate="G$1" x="48.26" y="96.52"/>
 <instance part="SUPPLY17" gate="G$1" x="55.88" y="96.52"/>
 <instance part="SUPPLY18" gate="G$1" x="93.98" y="104.14"/>
@@ -37020,22 +37021,22 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <instance part="P+3" gate="1" x="419.1" y="78.74" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="419.1" y="81.28" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="Q3" gate="G$1" x="322.58" y="177.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="318.77" y="182.626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="317.246" y="172.212" size="1.778" layer="96"/>
+<instance part="Q3" gate="G$1" x="287.02" y="177.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="283.21" y="182.626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="281.686" y="172.212" size="1.778" layer="96"/>
 </instance>
-<instance part="Q4" gate="G$1" x="279.4" y="175.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="275.59" y="180.086" size="1.778" layer="95"/>
-<attribute name="VALUE" x="274.066" y="169.672" size="1.778" layer="96"/>
+<instance part="Q4" gate="G$1" x="254" y="175.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="250.19" y="180.086" size="1.778" layer="95"/>
+<attribute name="VALUE" x="248.666" y="169.672" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="287.02" y="193.04"/>
-<instance part="SUPPLY4" gate="G$1" x="330.2" y="195.58"/>
-<instance part="SUPPLY24" gate="G$1" x="271.78" y="193.04"/>
-<instance part="SUPPLY25" gate="G$1" x="314.96" y="195.58"/>
-<instance part="R2" gate="G$1" x="287.02" y="182.88" rot="R90"/>
-<instance part="R3" gate="G$1" x="271.78" y="182.88" rot="R90"/>
-<instance part="R20" gate="G$1" x="314.96" y="185.42" rot="R90"/>
-<instance part="R21" gate="G$1" x="330.2" y="185.42" rot="R90"/>
+<instance part="SUPPLY3" gate="G$1" x="261.62" y="193.04"/>
+<instance part="SUPPLY4" gate="G$1" x="294.64" y="195.58"/>
+<instance part="SUPPLY24" gate="G$1" x="246.38" y="193.04"/>
+<instance part="SUPPLY25" gate="G$1" x="279.4" y="195.58"/>
+<instance part="R2" gate="G$1" x="261.62" y="182.88" rot="R90"/>
+<instance part="R3" gate="G$1" x="246.38" y="182.88" rot="R90"/>
+<instance part="R20" gate="G$1" x="279.4" y="185.42" rot="R90"/>
+<instance part="R21" gate="G$1" x="294.64" y="185.42" rot="R90"/>
 <instance part="C6" gate="G$1" x="144.78" y="109.22"/>
 <instance part="C18" gate="G$1" x="142.24" y="53.34"/>
 <instance part="C19" gate="G$1" x="203.2" y="50.8"/>
@@ -37053,6 +37054,14 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <instance part="V+" gate="G$1" x="414.02" y="68.58" rot="MR0"/>
 <instance part="U$5" gate="G$1" x="259.08" y="7.62"/>
 <instance part="SW2" gate="G$1" x="342.9" y="218.44"/>
+<instance part="Q5" gate="G$1" x="320.04" y="180.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="316.23" y="185.166" size="1.778" layer="95"/>
+<attribute name="VALUE" x="314.706" y="174.752" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY26" gate="G$1" x="327.66" y="198.12"/>
+<instance part="SUPPLY27" gate="G$1" x="312.42" y="198.12"/>
+<instance part="R4" gate="G$1" x="312.42" y="187.96" rot="R90"/>
+<instance part="R11" gate="G$1" x="327.66" y="187.96" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -37185,11 +37194,6 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <pinref part="C16" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="264.16" y1="106.68" x2="264.16" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="271.78" y1="106.68" x2="271.78" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SH1" gate="G$1" pin="P$2"/>
@@ -37365,12 +37369,17 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="VDD3V"/>
-<wire x1="259.08" y1="127" x2="271.78" y2="127" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="116.84" x2="271.78" y2="127" width="0.1524" layer="91"/>
-<junction x="271.78" y="127"/>
+<wire x1="259.08" y1="127" x2="264.16" y2="127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
+<wire x1="264.16" y1="127" x2="271.78" y2="127" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="127" x2="271.78" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="VDD"/>
+<wire x1="259.08" y1="124.46" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="116.84" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="124.46" x2="264.16" y2="127" width="0.1524" layer="91"/>
+<junction x="264.16" y="124.46"/>
+<junction x="264.16" y="127"/>
 </segment>
 <segment>
 <pinref part="SUPPLY22" gate="G$1" pin="3.3V"/>
@@ -37387,24 +37396,34 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <pinref part="3V3" gate="G$1" pin="PIN2"/>
 </segment>
 <segment>
-<wire x1="271.78" y1="187.96" x2="271.78" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="190.5" x2="271.78" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="182.88" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="190.5" x2="271.78" y2="190.5" width="0.1524" layer="91"/>
-<junction x="271.78" y="190.5"/>
+<wire x1="246.38" y1="187.96" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="190.5" x2="246.38" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="254" y1="182.88" x2="254" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="254" y1="190.5" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
+<junction x="246.38" y="190.5"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
 <pinref part="SUPPLY24" gate="G$1" pin="3.3V"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="190.5" x2="314.96" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="193.04" x2="314.96" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="185.42" x2="322.58" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="193.04" x2="314.96" y2="193.04" width="0.1524" layer="91"/>
-<junction x="314.96" y="193.04"/>
+<wire x1="279.4" y1="190.5" x2="279.4" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="193.04" x2="279.4" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="185.42" x2="287.02" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="193.04" x2="279.4" y2="193.04" width="0.1524" layer="91"/>
+<junction x="279.4" y="193.04"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <pinref part="SUPPLY25" gate="G$1" pin="3.3V"/>
 <pinref part="R20" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="193.04" x2="312.42" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="195.58" x2="312.42" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="187.96" x2="320.04" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="195.58" x2="312.42" y2="195.58" width="0.1524" layer="91"/>
+<junction x="312.42" y="195.58"/>
+<pinref part="Q5" gate="G$1" pin="G"/>
+<pinref part="SUPPLY27" gate="G$1" pin="3.3V"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ARDUINO_A0" class="0">
@@ -37515,12 +37534,12 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <label x="73.66" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="312.42" y="177.8" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<wire x1="317.5" y1="177.8" x2="314.96" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="180.34" x2="314.96" y2="177.8" width="0.1524" layer="91"/>
-<junction x="314.96" y="177.8"/>
+<label x="276.86" y="177.8" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="281.94" y1="177.8" x2="279.4" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="180.34" x2="279.4" y2="177.8" width="0.1524" layer="91"/>
+<junction x="279.4" y="177.8"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="312.42" y1="177.8" x2="314.96" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="177.8" x2="279.4" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -37531,12 +37550,12 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <label x="73.66" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="269.24" y="175.26" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<wire x1="274.32" y1="175.26" x2="271.78" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="177.8" x2="271.78" y2="175.26" width="0.1524" layer="91"/>
-<junction x="271.78" y="175.26"/>
+<label x="243.84" y="175.26" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="248.92" y1="175.26" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="177.8" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
+<junction x="246.38" y="175.26"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
-<wire x1="269.24" y1="175.26" x2="271.78" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="175.26" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -37704,9 +37723,12 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <label x="73.66" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="345.44" y1="180.34" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
-<label x="345.44" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="PIN1"/>
+<wire x1="309.88" y1="180.34" x2="312.42" y2="180.34" width="0.1524" layer="91"/>
+<label x="309.88" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="182.88" x2="312.42" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
+<wire x1="312.42" y1="180.34" x2="314.96" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TARGET_USB_N" class="4">
@@ -37937,14 +37959,19 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <pinref part="VIN" gate="G$1" pin="PIN2"/>
 </segment>
 <segment>
-<wire x1="287.02" y1="187.96" x2="287.02" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="187.96" x2="261.62" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VIN"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="330.2" y1="190.5" x2="330.2" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="190.5" x2="294.64" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VIN"/>
 <pinref part="R21" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="327.66" y1="193.04" x2="327.66" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="SUPPLY26" gate="G$1" pin="VIN"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -38019,14 +38046,6 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <pinref part="U$1" gate="G$1" pin="OUT2"/>
 <wire x1="157.48" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="VDD"/>
-<wire x1="259.08" y1="124.46" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="116.84" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -38171,24 +38190,35 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 </net>
 <net name="HV1" class="0">
 <segment>
-<wire x1="327.66" y1="177.8" x2="330.2" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="180.34" x2="330.2" y2="177.8" width="0.1524" layer="91"/>
-<junction x="330.2" y="177.8"/>
+<wire x1="292.1" y1="177.8" x2="294.64" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="180.34" x2="294.64" y2="177.8" width="0.1524" layer="91"/>
+<junction x="294.64" y="177.8"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="330.2" y1="177.8" x2="347.98" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="177.8" x2="347.98" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="PIN2"/>
 </segment>
 </net>
 <net name="HV2" class="0">
 <segment>
-<wire x1="284.48" y1="175.26" x2="287.02" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="177.8" x2="287.02" y2="175.26" width="0.1524" layer="91"/>
-<junction x="287.02" y="175.26"/>
+<wire x1="259.08" y1="175.26" x2="261.62" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="177.8" x2="261.62" y2="175.26" width="0.1524" layer="91"/>
+<junction x="261.62" y="175.26"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
-<wire x1="287.02" y1="175.26" x2="347.98" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="175.26" x2="347.98" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="PIN3"/>
+</segment>
+</net>
+<net name="HV3" class="0">
+<segment>
+<wire x1="325.12" y1="180.34" x2="327.66" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="182.88" x2="327.66" y2="180.34" width="0.1524" layer="91"/>
+<junction x="327.66" y="180.34"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
+<wire x1="327.66" y1="180.34" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="PIN1"/>
 </segment>
 </net>
 </nets>
