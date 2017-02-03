@@ -33195,8 +33195,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND40" library="PowerTags" deviceset="GND" device=""/>
 <part name="C5" library="swift" deviceset="CAP" device="0402" value="0.1uF"/>
 <part name="GND41" library="PowerTags" deviceset="GND" device=""/>
-<part name="C7" library="swift" deviceset="CAP" device="0402" value="18pF"/>
-<part name="C8" library="swift" deviceset="CAP" device="0402" value="18pF"/>
+<part name="C7" library="swift" deviceset="CAP" device="0603" value="18pF"/>
+<part name="C8" library="swift" deviceset="CAP" device="0603" value="18pF"/>
 <part name="LED1" library="Opto" deviceset="0044_KPT-2012YC" device="" value="Green"/>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="4.7K"/>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="4.7K"/>
@@ -33277,7 +33277,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
 <part name="R20" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
 <part name="R21" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
-<part name="C6" library="swift" deviceset="CAP" device="0402" value="0.01uF"/>
+<part name="C6" library="swift" deviceset="CAP" device="0603" value="0.01uF"/>
 <part name="C19" library="swift" deviceset="CAP" device="0402" value="1.0uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="MF_Connectors" deviceset="HEADER_01X10" device="_PTH_2.54MM">
@@ -33978,6 +33978,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <wire x1="314.96" y1="185.42" x2="314.96" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="317.5" y1="182.88" x2="314.96" y2="182.88" width="0.1524" layer="91"/>
+<junction x="314.96" y="182.88"/>
 </segment>
 </net>
 <net name="ARDUINO_D1" class="0">
@@ -34182,6 +34183,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <wire x1="276.86" y1="182.88" x2="276.86" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="S"/>
 <wire x1="276.86" y1="180.34" x2="279.4" y2="180.34" width="0.1524" layer="91"/>
+<junction x="276.86" y="180.34"/>
 </segment>
 </net>
 <net name="TARGET_USB_N" class="4">
@@ -34395,12 +34397,6 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <wire x1="330.2" y1="195.58" x2="330.2" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VIN"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="38.1" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="ID"/>
 </segment>
 </net>
 <net name="SHIELD" class="2">
@@ -34624,6 +34620,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="PIN0"/>
 <wire x1="330.2" y1="182.88" x2="347.98" y2="182.88" width="0.1524" layer="91"/>
+<junction x="330.2" y="182.88"/>
 </segment>
 </net>
 <net name="I" class="0">
