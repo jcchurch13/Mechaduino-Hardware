@@ -33173,7 +33173,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R4" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
 <part name="R11" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
 <part name="U1" library="MF_IC_Power" deviceset="TLV702" device="33PDBVR"/>
-<part name="D1" library="MF_Discrete_Semiconductor" deviceset="DIODE" device="_SMA"/>
+<part name="D1" library="MF_Discrete_Semiconductor" deviceset="DIODE" device="_SOD-123"/>
 </parts>
 <sheets>
 <sheet>
