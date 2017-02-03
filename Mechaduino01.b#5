@@ -147,14 +147,14 @@
 <text x="33.2359" y="3.44678125" size="0.8128" layer="21" align="center">4</text>
 <text x="28.808678125" y="3.42391875" size="0.8128" layer="21" align="center">3</text>
 <text x="26.286459375" y="3.462021875" size="0.8128" layer="21" rot="R180" align="center">2</text>
-<text x="37.746940625" y="8.7122" size="0.6096" layer="1" font="vector" ratio="13" rot="R90">Mechaduino 0.1
+<text x="37.746940625" y="8.9662" size="0.6096" layer="1" font="vector" ratio="13" rot="R90">Mechaduino 0.2
 Joe Church
-3/20/2016</text>
+2/2/2017</text>
 <text x="12.2936" y="7.6327" size="1.016" layer="21">V+</text>
 <text x="22.481540625" y="3.395978125" size="0.8128" layer="21" align="center">1</text>
-<text x="37.746940625" y="8.7122" size="0.6096" layer="29" font="vector" ratio="13" rot="R90">Mechaduino 0.1
+<text x="37.746940625" y="8.9662" size="0.6096" layer="29" font="vector" ratio="13" rot="R90">Mechaduino 0.2
 Joe Church
-3/20/2016</text>
+2/2/2017</text>
 <rectangle x1="26.543" y1="10.541" x2="33.147" y2="16.002" layer="30"/>
 <text x="36.83" y="-9.525" size="1.27" layer="49" font="vector" align="center">Joe Church</text>
 <wire x1="3.81" y1="0" x2="38.1" y2="0" width="0" layer="20"/>
@@ -9779,14 +9779,10 @@ design rules under a new name.</description>
 </element>
 <element name="U$2" library="stepper_servo_prototype_1" package="NEMA17_HOLE_PATTERN_2" value="NEMA17_HOLE_PATTERNNEW" x="20.955" y="20.955" smashed="yes"/>
 <element name="U$4" library="stepper_servo_prototype_1" package="TSSOP14" value="AS5047D" x="20.955" y="20.955" locked="yes" smashed="yes" rot="MR180"/>
-<element name="R14" library="adafruit" package="R0402-VISHAY" value="1k" x="26.035" y="19.05" smashed="yes">
-<attribute name="VALUE" x="23.9014" y="16.7386" size="1.27" layer="27" ratio="10"/>
-</element>
+<element name="R14" library="adafruit" package="R0402-VISHAY" value="1k" x="26.035" y="19.05" smashed="yes"/>
 <element name="C14" library="swift" package="0402-CAP" value="0.1uF" x="26.035" y="18.034" smashed="yes" rot="R180"/>
 <element name="C15" library="swift" package="0402-CAP" value="0.1uF" x="33.528" y="18.034" smashed="yes"/>
-<element name="R15" library="adafruit" package="R0402-VISHAY" value="1k" x="33.528" y="19.05" smashed="yes" rot="R180">
-<attribute name="VALUE" x="35.6616" y="21.3614" size="1.27" layer="27" ratio="10" rot="R180"/>
-</element>
+<element name="R15" library="adafruit" package="R0402-VISHAY" value="1k" x="33.528" y="19.05" smashed="yes" rot="R180"/>
 <element name="JP6" library="SparkFun-Connectors" package="1X04" value="" x="23.749" y="1.27" smashed="yes">
 <attribute name="VALUE" x="22.479" y="-1.905" size="1.27" layer="27"/>
 </element>
@@ -9795,7 +9791,7 @@ design rules under a new name.</description>
 <attribute name="BOM" value="no" x="15.875" y="1.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="15.494" y="2.159" size="0.762" layer="51" ratio="10" rot="R270"/>
 </element>
-<element name="U$3" library="stepper_servo_prototype_1" package="LOGO3" value="TROPICAL_LABS_LOGO_1LOGO3" x="6.096" y="12.192" rot="R90"/>
+<element name="U$3" library="stepper_servo_prototype_1" package="LOGO3" value="TROPICAL_LABS_LOGO_1LOGO3" x="7.747" y="13.97" rot="R90"/>
 <element name="J1" library="MF_Connectors" package="MICROUSB-RIGHT" value="" x="38.735" y="20.166" locked="yes" smashed="yes" rot="R90"/>
 <element name="R16" library="adafruit" package="R0402-VISHAY" value="100K" x="3.175" y="27.813" rot="MR180"/>
 <element name="F1" library="SparkFun-PowerIC" package="PTC-1206" value="500mA" x="20.574" y="15.621" smashed="yes" rot="MR0">
@@ -9855,16 +9851,16 @@ design rules under a new name.</description>
 <attribute name="LABEL01" value="" x="8.255" y="22.987" size="0.8128" layer="21" font="vector" ratio="16" align="center-right"/>
 <attribute name="NAME" x="9.144" y="27.305" size="0.8128" layer="25" font="vector" ratio="16" rot="R270" align="bottom-right"/>
 </element>
-<element name="U$5" library="stepper_servo_prototype_1" package="MECHADUINO_LOGO" value="MECHADUINO_LOGO" x="1.524" y="28.448" rot="R90"/>
+<element name="U$5" library="stepper_servo_prototype_1" package="MECHADUINO_LOGO" value="MECHADUINO_LOGO" x="1.905" y="25.781" rot="R90"/>
 <element name="SW2" library="MF_Switches" package="TACT4.2MM" value="" x="35.3568" y="31.2928" smashed="yes"/>
-<element name="Q5" library="SparkFun" package="SOT23-3" value="BSS138" x="10.795" y="33.02"/>
+<element name="Q5" library="SparkFun" package="SOT23-3" value="BSS138" x="10.795" y="33.02" smashed="yes"/>
 <element name="R4" library="adafruit" package="R0402-VISHAY" value="10K" x="10.795" y="30.861" rot="R180"/>
 <element name="R11" library="adafruit" package="R0402-VISHAY" value="10K" x="12.319" y="35.814" rot="R270"/>
-<element name="U1" library="MF_IC_Power" package="SOT-23-5" value="TLV70233PDBVR" x="16.637" y="16.256"/>
-<element name="D1" library="MF_Discrete_Semiconductor" package="SOD-123" value="" x="18.669" y="12.573" rot="R46.8">
+<element name="U1" library="MF_IC_Power" package="SOT-23-5" value="TLV70233PDBVR" x="16.637" y="16.256" smashed="yes"/>
+<element name="D1" library="MF_Discrete_Semiconductor" package="SOD-123" value="" x="18.669" y="12.573" smashed="yes" rot="R46.8">
 <attribute name="MFG#" value="N/A" x="18.669" y="12.573" size="1.778" layer="27" rot="R46.8" display="off"/>
 </element>
-<element name="Q1" library="SparkFun" package="SOT23-3" value="BSS138" x="7.747" y="31.877"/>
+<element name="Q1" library="SparkFun" package="SOT23-3" value="BSS138" x="7.747" y="31.877" smashed="yes"/>
 <element name="R1" library="adafruit" package="R0402-VISHAY" value="10K" x="7.62" y="29.718" rot="R180"/>
 <element name="R6" library="adafruit" package="R0402-VISHAY" value="10K" x="10.414" y="35.814" rot="R270"/>
 </elements>
@@ -10340,8 +10336,8 @@ design rules under a new name.</description>
 <signal name="ARDUINO_D4----VREF2">
 <contactref element="IC1" pad="13"/>
 <contactref element="R15" pad="1"/>
-<wire x1="33.147" y1="21.59" x2="33.147" y2="23.241" width="0.254" layer="16"/>
-<wire x1="33.147" y1="23.241" x2="33.147" y2="23.368" width="0.254" layer="16"/>
+<wire x1="33.147" y1="21.59" x2="33.147" y2="23.114" width="0.254" layer="16"/>
+<wire x1="33.147" y1="23.241" x2="33.147" y2="23.114" width="0.254" layer="16"/>
 <wire x1="34.036" y1="20.701" x2="33.147" y2="21.59" width="0.254" layer="1"/>
 <wire x1="34.036" y1="19.05" x2="34.036" y2="20.701" width="0.254" layer="1"/>
 <wire x1="34.036" y1="19.05" x2="33.978" y2="19.05" width="0.254" layer="1"/>
@@ -10441,11 +10437,12 @@ design rules under a new name.</description>
 <wire x1="23.749" y1="28.067" x2="24.384" y2="28.702" width="0.254" layer="1"/>
 <wire x1="23.749" y1="28.067" x2="23.686659375" y2="28.052571875" width="0.254" layer="1"/>
 <via x="24.257" y="28.829" extent="1-16" drill="0.3048" diameter="0.254"/>
-<wire x1="28.956" y1="22.352" x2="28.956" y2="19.558" width="0.254" layer="16"/>
-<wire x1="30.734" y1="17.78" x2="30.734" y2="16.256" width="0.254" layer="1"/>
-<wire x1="28.956" y1="19.558" x2="30.734" y2="17.78" width="0.254" layer="16"/>
+<wire x1="28.956" y1="22.352" x2="28.956" y2="21.59" width="0.254" layer="16"/>
+<wire x1="30.988" y1="19.558" x2="30.734" y2="19.304" width="0.254" layer="1"/>
+<wire x1="30.734" y1="19.304" x2="30.734" y2="16.256" width="0.254" layer="1"/>
+<wire x1="28.956" y1="21.59" x2="30.988" y2="19.558" width="0.254" layer="16"/>
 <wire x1="30.734" y1="16.256" x2="30.7827" y2="16.2104" width="0.254" layer="1"/>
-<via x="30.734" y="17.78" extent="1-16" drill="0.3048" diameter="0.254"/>
+<via x="30.988" y="19.558" extent="1-16" drill="0.3048" diameter="0.254"/>
 </signal>
 <signal name="ARDUINO_D6----IN4">
 <contactref element="IC1" pad="29"/>
@@ -10459,11 +10456,11 @@ design rules under a new name.</description>
 <wire x1="27.178" y1="30.734" x2="28.575" y2="29.337" width="0.254" layer="16"/>
 <wire x1="28.575" y1="29.337" x2="28.575" y2="23.749" width="0.254" layer="16"/>
 <wire x1="28.575" y1="23.749" x2="30.226" y2="22.098" width="0.254" layer="16"/>
-<wire x1="30.226" y1="22.098" x2="30.226" y2="20.447" width="0.254" layer="16"/>
-<wire x1="30.226" y1="20.447" x2="30.099" y2="20.32" width="0.254" layer="1"/>
-<wire x1="30.099" y1="20.32" x2="30.099" y2="16.256" width="0.254" layer="1"/>
+<wire x1="30.226" y1="22.098" x2="30.226" y2="21.336" width="0.254" layer="16"/>
+<wire x1="30.226" y1="21.336" x2="30.099" y2="21.082" width="0.254" layer="1"/>
+<wire x1="30.099" y1="21.082" x2="30.099" y2="16.256" width="0.254" layer="1"/>
 <wire x1="30.099" y1="16.256" x2="30.1327" y2="16.2104" width="0.254" layer="1"/>
-<via x="30.226" y="20.447" extent="1-16" drill="0.3048" diameter="0.254"/>
+<via x="30.226" y="21.336" extent="1-16" drill="0.3048" diameter="0.254"/>
 </signal>
 <signal name="TARGET_USB_N" class="4">
 <contactref element="IC1" pad="33"/>
@@ -10602,10 +10599,10 @@ design rules under a new name.</description>
 <wire x1="19.812" y1="34.163" x2="19.797571875" y2="34.0983375" width="0.254" layer="1"/>
 <via x="19.431" y="33.528" extent="1-16" drill="0.3048" diameter="0.254"/>
 <wire x1="25.527" y1="19.812" x2="25.527" y2="19.05" width="0.254" layer="1"/>
-<wire x1="27.813" y1="19.812" x2="25.527" y2="19.812" width="0.254" layer="16"/>
-<wire x1="30.48" y1="17.145" x2="27.813" y2="19.812" width="0.254" layer="16"/>
-<wire x1="30.988" y1="17.145" x2="30.48" y2="17.145" width="0.254" layer="16"/>
-<wire x1="33.782" y1="19.939" x2="30.988" y2="17.145" width="0.254" layer="16"/>
+<wire x1="27.178" y1="19.812" x2="25.527" y2="19.812" width="0.254" layer="16"/>
+<wire x1="28.067" y1="18.923" x2="27.178" y2="19.812" width="0.254" layer="16"/>
+<wire x1="32.766" y1="18.923" x2="28.067" y2="18.923" width="0.254" layer="16"/>
+<wire x1="33.782" y1="19.939" x2="32.766" y2="18.923" width="0.254" layer="16"/>
 <wire x1="33.782" y1="25.654" x2="33.782" y2="19.939" width="0.254" layer="16"/>
 <wire x1="31.623" y1="27.813" x2="33.782" y2="25.654" width="0.254" layer="16"/>
 <wire x1="30.607" y1="27.813" x2="31.623" y2="27.813" width="0.254" layer="16"/>

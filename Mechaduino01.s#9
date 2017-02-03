@@ -36735,8 +36735,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="avagopack" deviceset="AVAGO_DRIVER" device=""/>
-<part name="R12" library="adafruit" deviceset="R-US_" device="R1206" value=".25 Ohm"/>
-<part name="R13" library="adafruit" deviceset="R-US_" device="R1206" value=".25 Ohm"/>
+<part name="R12" library="adafruit" deviceset="R-US_" device="R1206" value=".15 Ohm"/>
+<part name="R13" library="adafruit" deviceset="R-US_" device="R1206" value=".15 Ohm"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP_POL" device="D" value="100uF"/>
 <part name="C13" library="swift" deviceset="CAP" device="0603" value="1.0uF"/>
 <part name="MOTOR_POWER" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
@@ -36761,7 +36761,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$3" library="stepper_servo_prototype_1" deviceset="TROPICAL_LABS_LOGO_1" device="LOGO3" value="TROPICAL_LABS_LOGO_1LOGO3"/>
 <part name="J1" library="MF_Connectors" deviceset="USB" device="_MICRO_RIGHT"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
-<part name="R16" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="100k"/>
+<part name="R16" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="100K"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="500mA"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="DMG2307L" value="2.5A/30V"/>
