@@ -33056,8 +33056,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND40" library="PowerTags" deviceset="GND" device=""/>
 <part name="C5" library="swift" deviceset="CAP" device="0402" value="0.1uF"/>
 <part name="GND41" library="PowerTags" deviceset="GND" device=""/>
-<part name="C7" library="swift" deviceset="CAP" device="0402" value="22pF"/>
-<part name="C8" library="swift" deviceset="CAP" device="0402" value="22pF"/>
+<part name="C7" library="swift" deviceset="CAP" device="0402" value="18pF"/>
+<part name="C8" library="swift" deviceset="CAP" device="0402" value="18pF"/>
 <part name="LED1" library="Opto" deviceset="0044_KPT-2012YC" device="" value="Green"/>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="4.7K"/>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="4.7K"/>
