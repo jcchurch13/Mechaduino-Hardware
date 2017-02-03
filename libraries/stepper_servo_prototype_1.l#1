@@ -23,7 +23,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
@@ -21473,14 +21473,67 @@
 <hole x="-15.5" y="-15.5" drill="3.2"/>
 <hole x="15.5" y="-15.5" drill="3.2"/>
 <hole x="15.5" y="15.5" drill="3.2"/>
-<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="29"/>
-<circle x="15.5" y="15.5" radius="3.25" width="0" layer="29"/>
-<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="29"/>
-<circle x="-15.5" y="-15.5" radius="3.25" width="0" layer="29"/>
-<circle x="15.5" y="15.5" radius="3.25" width="0" layer="30"/>
-<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="30"/>
-<circle x="-15.5" y="-15.5" radius="3.25" width="0" layer="30"/>
-<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="30"/>
+<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="41"/>
+<circle x="15.5" y="15.5" radius="3.25" width="0" layer="41"/>
+<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="41"/>
+<circle x="15.5" y="15.5" radius="3.25" width="0" layer="42"/>
+<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="42"/>
+<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="42"/>
+<polygon width="0.127" layer="41">
+<vertex x="21.5" y="-21.5"/>
+<vertex x="21.5" y="-10.5"/>
+<vertex x="21.5" y="-10"/>
+<vertex x="21.5" y="-9.5"/>
+<vertex x="9.5" y="-21.5"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="21.5" y="21.5"/>
+<vertex x="10.5" y="21.5"/>
+<vertex x="10" y="21.5"/>
+<vertex x="9.5" y="21.5"/>
+<vertex x="21.5" y="9.5"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-21.5" y="21.5"/>
+<vertex x="-21.5" y="10.5"/>
+<vertex x="-21.5" y="10"/>
+<vertex x="-21.5" y="9.5"/>
+<vertex x="-9.5" y="21.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-18" y="26.5"/>
+<vertex x="-18" y="15.5"/>
+<vertex x="-18" y="15"/>
+<vertex x="-18" y="14.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="21.5" y="21.5"/>
+<vertex x="10.5" y="21.5"/>
+<vertex x="10" y="21.5"/>
+<vertex x="9.5" y="21.5"/>
+<vertex x="21.5" y="9.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-21.5" y="21.5"/>
+<vertex x="-21.5" y="10.5"/>
+<vertex x="-21.5" y="10"/>
+<vertex x="-21.5" y="9.5"/>
+<vertex x="-9.5" y="21.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-21.5" y="-21.5"/>
+<vertex x="-10.5" y="-21.5"/>
+<vertex x="-10" y="-21.5"/>
+<vertex x="-9.5" y="-21.5"/>
+<vertex x="-21.5" y="-9.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="21.5" y="-21.5"/>
+<vertex x="21.5" y="-10.5"/>
+<vertex x="21.5" y="-10"/>
+<vertex x="21.5" y="-9.5"/>
+<vertex x="9.5" y="-21.5"/>
+</polygon>
 </package>
 </packages>
 <symbols>
