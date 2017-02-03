@@ -147,14 +147,14 @@
 <text x="33.2359" y="3.44678125" size="0.8128" layer="21" align="center">4</text>
 <text x="28.808678125" y="3.42391875" size="0.8128" layer="21" align="center">3</text>
 <text x="26.286459375" y="3.462021875" size="0.8128" layer="21" rot="R180" align="center">2</text>
-<text x="37.746940625" y="8.7122" size="0.6096" layer="1" font="vector" ratio="13" rot="R90">Mechaduino 0.1
+<text x="37.746940625" y="8.9662" size="0.6096" layer="1" font="vector" ratio="13" rot="R90">Mechaduino 0.2
 Joe Church
-3/20/2016</text>
+2/2/2017</text>
 <text x="12.2936" y="7.6327" size="1.016" layer="21">V+</text>
 <text x="22.481540625" y="3.395978125" size="0.8128" layer="21" align="center">1</text>
-<text x="37.746940625" y="8.7122" size="0.6096" layer="29" font="vector" ratio="13" rot="R90">Mechaduino 0.1
+<text x="37.746940625" y="8.9662" size="0.6096" layer="29" font="vector" ratio="13" rot="R90">Mechaduino 0.2
 Joe Church
-3/20/2016</text>
+2/2/2017</text>
 <rectangle x1="26.543" y1="10.541" x2="33.147" y2="16.002" layer="30"/>
 <text x="36.83" y="-9.525" size="1.27" layer="49" font="vector" align="center">Joe Church</text>
 <wire x1="3.81" y1="0" x2="38.1" y2="0" width="0" layer="20"/>
@@ -9791,7 +9791,7 @@ design rules under a new name.</description>
 <attribute name="BOM" value="no" x="15.875" y="1.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="15.494" y="2.159" size="0.762" layer="51" ratio="10" rot="R270"/>
 </element>
-<element name="U$3" library="stepper_servo_prototype_1" package="LOGO3" value="TROPICAL_LABS_LOGO_1LOGO3" x="6.096" y="12.192" rot="R90"/>
+<element name="U$3" library="stepper_servo_prototype_1" package="LOGO3" value="TROPICAL_LABS_LOGO_1LOGO3" x="7.747" y="13.97" rot="R90"/>
 <element name="J1" library="MF_Connectors" package="MICROUSB-RIGHT" value="" x="38.735" y="20.166" locked="yes" smashed="yes" rot="R90"/>
 <element name="R16" library="adafruit" package="R0402-VISHAY" value="100K" x="3.175" y="27.813" rot="MR180"/>
 <element name="F1" library="SparkFun-PowerIC" package="PTC-1206" value="500mA" x="20.574" y="15.621" smashed="yes" rot="MR0">
@@ -9851,7 +9851,7 @@ design rules under a new name.</description>
 <attribute name="LABEL01" value="" x="8.255" y="22.987" size="0.8128" layer="21" font="vector" ratio="16" align="center-right"/>
 <attribute name="NAME" x="9.144" y="27.305" size="0.8128" layer="25" font="vector" ratio="16" rot="R270" align="bottom-right"/>
 </element>
-<element name="U$5" library="stepper_servo_prototype_1" package="MECHADUINO_LOGO" value="MECHADUINO_LOGO" x="1.524" y="28.448" rot="R90"/>
+<element name="U$5" library="stepper_servo_prototype_1" package="MECHADUINO_LOGO" value="MECHADUINO_LOGO" x="1.905" y="25.781" rot="R90"/>
 <element name="SW2" library="MF_Switches" package="TACT4.2MM" value="" x="35.3568" y="31.2928" smashed="yes"/>
 <element name="Q5" library="SparkFun" package="SOT23-3" value="BSS138" x="10.795" y="33.02" smashed="yes"/>
 <element name="R4" library="adafruit" package="R0402-VISHAY" value="10K" x="10.795" y="30.861" rot="R180"/>

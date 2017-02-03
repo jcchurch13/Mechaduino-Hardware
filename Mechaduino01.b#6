@@ -9988,6 +9988,18 @@ design rules under a new name.</description>
 <wire x1="28.321" y1="32.639" x2="29.21" y2="31.75" width="0.254" layer="16"/>
 <wire x1="33.401" y1="30.48" x2="33.2818" y2="30.3448" width="0.254" layer="1"/>
 <via x="32.385" y="31.496" extent="1-16" drill="0.3048" diameter="0.254"/>
+<via x="35.941" y="24.892" extent="1-16" drill="0.3048"/>
+<via x="31.242" y="22.733" extent="1-16" drill="0.3048"/>
+<wire x1="31.242" y1="22.733" x2="31.877" y2="22.733" width="0.254" layer="1"/>
+<wire x1="31.877" y1="22.733" x2="33.782" y2="24.638" width="0.254" layer="1"/>
+<wire x1="33.782" y1="24.638" x2="33.782" y2="27.051" width="0.254" layer="1"/>
+<via x="33.782" y="27.051" extent="1-16" drill="0.3048"/>
+<wire x1="33.782" y1="27.178" x2="35.179" y2="27.178" width="0.254" layer="16"/>
+<wire x1="33.782" y1="27.178" x2="33.782" y2="27.051" width="0.254" layer="16"/>
+<wire x1="35.941" y1="26.416" x2="35.941" y2="24.892" width="0.254" layer="16"/>
+<wire x1="35.179" y1="27.178" x2="35.941" y2="26.416" width="0.254" layer="16"/>
+<via x="27.559" y="22.479" extent="1-16" drill="0.3048"/>
+<via x="25.654" y="21.59" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="RESET">
 <contactref element="JP4" pad="10"/>
