@@ -33277,7 +33277,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
 <part name="R20" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
 <part name="R21" library="adafruit" deviceset="R-US_" device="R0402-VISHAY" value="10K"/>
-<part name="C6" library="swift" deviceset="CAP" device="0402" value="0.01uF"/>
+<part name="C6" library="swift" deviceset="CAP" device="0603" value="0.01uF"/>
 <part name="C19" library="swift" deviceset="CAP" device="0402" value="1.0uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="MF_Connectors" deviceset="HEADER_01X10" device="_PTH_2.54MM">
