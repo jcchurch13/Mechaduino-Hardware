@@ -10784,9 +10784,6 @@ design rules under a new name.</description>
 <wire x1="20.955" y1="26.035" x2="22.098" y2="27.178" width="0.254" layer="1"/>
 <wire x1="22.606" y1="29.083" x2="22.626" y2="29.113234375" width="0.254" layer="1"/>
 </signal>
-<signal name="N$7">
-<contactref element="J1" pad="4"/>
-</signal>
 <signal name="SHIELD" class="2">
 <contactref element="L1" pad="1"/>
 <contactref element="J1" pad="S2"/>

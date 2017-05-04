@@ -6047,6 +6047,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="OSHW_LOGO_COPPER_MOD">
+<circle x="0" y="0" radius="3.683" width="0.0254" layer="41"/>
 <polygon width="0.15" layer="1">
 <vertex x="0.9209" y="-2.2231" curve="9.497479"/>
 <vertex x="1.2751" y="-2.0407"/>
@@ -6117,7 +6118,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.0938" y="0" curve="-247.497204"/>
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
-<circle x="0" y="0" radius="3.683" width="0.0254" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -9795,17 +9795,17 @@ Standard 11x14 US Ledger frame</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="MOD" package="OSHW_LOGO_COPPER_MOD">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 <device name="S" package="OSHW-LOGO-S">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="S-COPPER" package="OSHW-LOGO-S_COPPER">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MOD" package="OSHW_LOGO_COPPER_MOD">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10086,9 +10086,9 @@ thin small outline package</description>
 <smd name="14" x="-0.925" y="3.05" dx="0.4" dy="1.6" layer="1"/>
 <smd name="15" x="-1.575" y="3.05" dx="0.4" dy="1.6" layer="1"/>
 <smd name="16" x="-2.225" y="3.05" dx="0.4" dy="1.6" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="3" dy="3" layer="1" rot="R180" thermals="no"/>
 <text x="-1.524" y="-1.27" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.524" y="0.889" size="0.6096" layer="27">&gt;VALUE</text>
-<smd name="P$1" x="0" y="0" dx="3" dy="3" layer="1" rot="R180" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -32039,6 +32039,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </package>
 <package name="NEMA17_HOLE_PATTERN_2">
 <circle x="0" y="0" radius="0.508" width="0.127" layer="21"/>
+<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="41"/>
+<circle x="15.5" y="15.5" radius="3.25" width="0" layer="41"/>
+<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="41"/>
+<circle x="15.5" y="15.5" radius="3.25" width="0" layer="42"/>
+<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="42"/>
+<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="42"/>
 <wire x1="-21.15" y1="-21.15" x2="21.15" y2="-21.15" width="0.127" layer="249"/>
 <wire x1="21.15" y1="-21.15" x2="21.15" y2="21.15" width="0.127" layer="249"/>
 <wire x1="21.15" y1="21.15" x2="-21.15" y2="21.15" width="0.127" layer="249"/>
@@ -32051,12 +32057,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <hole x="-15.5" y="-15.5" drill="3.2"/>
 <hole x="15.5" y="-15.5" drill="3.2"/>
 <hole x="15.5" y="15.5" drill="3.2"/>
-<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="41"/>
-<circle x="15.5" y="15.5" radius="3.25" width="0" layer="41"/>
-<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="41"/>
-<circle x="15.5" y="15.5" radius="3.25" width="0" layer="42"/>
-<circle x="15.5" y="-15.5" radius="3.25" width="0" layer="42"/>
-<circle x="-15.5" y="15.5" radius="3.25" width="0" layer="42"/>
 <polygon width="0.127" layer="41">
 <vertex x="21.5" y="-21.5"/>
 <vertex x="21.5" y="-10.5"/>
@@ -32996,11 +32996,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <packages>
 <package name="SOT-23-5">
 <description>&lt;b&gt;Description:&lt;/b&gt; Standard SOT-23-5 Package. &lt;br/&gt;</description>
-<smd name="P$1" x="-1.35" y="0.95" dx="1.05" dy="0.6" layer="1"/>
-<smd name="P$2" x="-1.35" y="0" dx="1.05" dy="0.6" layer="1"/>
-<smd name="P$3" x="-1.35" y="-0.95" dx="1.05" dy="0.6" layer="1"/>
-<smd name="P$5" x="1.35" y="0.95" dx="1.05" dy="0.6" layer="1"/>
-<smd name="P$4" x="1.35" y="-0.95" dx="1.05" dy="0.6" layer="1"/>
 <wire x1="-2.2" y1="1.6" x2="-0.6" y2="1.6" width="0.127" layer="21"/>
 <wire x1="-0.6" y1="1.6" x2="0.6" y2="1.6" width="0.127" layer="21"/>
 <wire x1="0.6" y1="1.6" x2="2.2" y2="1.6" width="0.127" layer="21"/>
@@ -33009,15 +33004,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.6" y1="-1.6" x2="-0.6" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="-0.6" y1="-1.6" x2="-2.2" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="-2.2" y1="-1.6" x2="-2.2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="1.6" x2="-0.6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="0.6" y1="1.6" x2="0.6" y2="-1.6" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.35" y="0.95" dx="1.05" dy="0.6" layer="1"/>
+<smd name="P$2" x="-1.35" y="0" dx="1.05" dy="0.6" layer="1"/>
+<smd name="P$3" x="-1.35" y="-0.95" dx="1.05" dy="0.6" layer="1"/>
+<smd name="P$4" x="1.35" y="-0.95" dx="1.05" dy="0.6" layer="1"/>
+<smd name="P$5" x="1.35" y="0.95" dx="1.05" dy="0.6" layer="1"/>
+<text x="-2.2" y="2" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <polygon width="0.127" layer="21">
 <vertex x="-0.6" y="1.6"/>
 <vertex x="-0.6" y="0.8"/>
 <vertex x="0.6" y="0.8"/>
 <vertex x="0.6" y="1.6"/>
 </polygon>
-<wire x1="-0.6" y1="1.6" x2="-0.6" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="0.6" y1="1.6" x2="0.6" y2="-1.6" width="0.127" layer="21"/>
-<text x="-2.2" y="2" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <polygon width="0.127" layer="21">
 <vertex x="-2.8" y="1" curve="-90"/>
 <vertex x="-3" y="1.2" curve="-90"/>
@@ -33029,19 +33029,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <symbols>
 <symbol name="VOLTAGE_REGULATOR_EN">
 <description>&lt;b&gt;Description:&lt;/b&gt; Symbol for voltage regulators with an Enable Signal.&lt;br/&gt;</description>
-<pin name="VIN" x="-2.54" y="-2.54" visible="off" length="short"/>
-<pin name="VOUT" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="GND/ADJ" x="5.08" y="-10.16" visible="off" length="short" rot="R90"/>
-<text x="0.762" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">VIN</text>
-<text x="9.398" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VOUT</text>
-<text x="5.08" y="-6.35" size="1.016" layer="97" font="vector" rot="R180" align="center">GND/ADJ</text>
 <wire x1="0" y1="0" x2="0" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="0" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="EN" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="GND/ADJ" x="5.08" y="-10.16" visible="off" length="short" rot="R90"/>
+<pin name="VIN" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="VOUT" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<text x="0.762" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">VIN</text>
+<text x="9.398" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VOUT</text>
+<text x="5.08" y="-6.35" size="1.016" layer="97" font="vector" rot="R180" align="center">GND/ADJ</text>
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
-<pin name="EN" x="-2.54" y="-5.08" visible="off" length="short"/>
 <text x="0.762" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">EN</text>
 </symbol>
 </symbols>
@@ -33071,46 +33071,46 @@ In this library the device names are the same as the pin names of the symbols, t
 </library>
 <library name="MF_Discrete_Semiconductor">
 <packages>
-<package name="SMA">
-<description>&lt;b&gt;Description:&lt;/b&gt; Footprint for Diodes in SMA Standard.&lt;br/&gt;</description>
-<smd name="CATHODE" x="-2" y="0" dx="2.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="ANODE" x="2" y="0" dx="2.5" dy="1.7" layer="1" rot="R180"/>
-<text x="-4.2" y="1.89" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<polygon width="0.127" layer="21">
-<vertex x="-0.35" y="0"/>
-<vertex x="0.35" y="0.5"/>
-<vertex x="0.35" y="-0.5"/>
-</polygon>
-<wire x1="-3.6" y1="1.6" x2="3.6" y2="1.6" width="0.127" layer="21"/>
-<wire x1="3.6" y1="1.6" x2="3.6" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-1.6" x2="-3.6" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-1.6" x2="-3.6" y2="1.6" width="0.127" layer="21"/>
-<polygon width="0.127" layer="21">
-<vertex x="-4.2" y="1.6"/>
-<vertex x="-3.6" y="1.6"/>
-<vertex x="-3.6" y="-1.6"/>
-<vertex x="-4.2" y="-1.6"/>
-</polygon>
-</package>
 <package name="SOD-123">
 <description>&lt;b&gt;Description:&lt;/b&gt; Footprint for Diodes in SOD-123 Standard.&lt;br/&gt;</description>
-<smd name="CATHODE" x="-1.675" y="0" dx="0.85" dy="1.2" layer="1" rot="R180"/>
+<wire x1="-2.4" y1="0.85" x2="2.4" y2="0.85" width="0.127" layer="21"/>
+<wire x1="2.4" y1="0.85" x2="2.4" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-0.85" x2="-2.4" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-0.85" x2="-2.4" y2="0.85" width="0.127" layer="21"/>
 <smd name="ANODE" x="1.675" y="0" dx="0.85" dy="1.2" layer="1" rot="R180"/>
+<smd name="CATHODE" x="-1.675" y="0" dx="0.85" dy="1.2" layer="1" rot="R180"/>
 <text x="-2.8" y="1.09" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <polygon width="0.127" layer="21">
 <vertex x="-0.35" y="0"/>
 <vertex x="0.15" y="0.3"/>
 <vertex x="0.15" y="-0.3"/>
 </polygon>
-<wire x1="-2.4" y1="0.85" x2="2.4" y2="0.85" width="0.127" layer="21"/>
-<wire x1="2.4" y1="0.85" x2="2.4" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="2.4" y1="-0.85" x2="-2.4" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="-0.85" x2="-2.4" y2="0.85" width="0.127" layer="21"/>
 <polygon width="0.127" layer="21">
 <vertex x="-2.8" y="0.85"/>
 <vertex x="-2.4" y="0.85"/>
 <vertex x="-2.4" y="-0.85"/>
 <vertex x="-2.8" y="-0.85"/>
+</polygon>
+</package>
+<package name="SMA">
+<description>&lt;b&gt;Description:&lt;/b&gt; Footprint for Diodes in SMA Standard.&lt;br/&gt;</description>
+<wire x1="-3.6" y1="1.6" x2="3.6" y2="1.6" width="0.127" layer="21"/>
+<wire x1="3.6" y1="1.6" x2="3.6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-1.6" x2="-3.6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-1.6" x2="-3.6" y2="1.6" width="0.127" layer="21"/>
+<smd name="ANODE" x="2" y="0" dx="2.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="CATHODE" x="-2" y="0" dx="2.5" dy="1.7" layer="1" rot="R180"/>
+<text x="-4.2" y="1.89" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-0.35" y="0"/>
+<vertex x="0.35" y="0.5"/>
+<vertex x="0.35" y="-0.5"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="-4.2" y="1.6"/>
+<vertex x="-3.6" y="1.6"/>
+<vertex x="-3.6" y="-1.6"/>
+<vertex x="-4.2" y="-1.6"/>
 </polygon>
 </package>
 </packages>
@@ -33121,15 +33121,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.762" y1="0" x2="-0.762" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-0.762" y1="-1.524" x2="-0.762" y2="1.524" width="0.254" layer="94"/>
 <wire x1="-0.762" y1="1.524" x2="0.762" y2="0" width="0.254" layer="94"/>
+<pin name="ANODE" x="-5.08" y="0" visible="off" length="middle"/>
+<pin name="CATHODE" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<text x="-5.08" y="2.54" size="1.016" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.016" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <polygon width="0.254" layer="94">
 <vertex x="-0.762" y="-1.524"/>
 <vertex x="-0.762" y="1.524"/>
 <vertex x="0.762" y="0"/>
 </polygon>
-<text x="-5.08" y="2.54" size="1.016" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="-2.54" size="1.016" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="ANODE" x="-5.08" y="0" visible="off" length="middle"/>
-<pin name="CATHODE" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -33331,9 +33331,9 @@ In this library the device names are the same as the pin names of the symbols, t
 USB cable sheild from 
 acting like an antenna.</text>
 <text x="147.32" y="63.5" size="3.81" layer="94" ratio="10">3.3V linear regulator</text>
-<text x="220.98" y="134.62" size="3.81" layer="94">Magnetic Encoder</text>
+<text x="220.98" y="137.16" size="3.81" layer="94">Magnetic Encoder</text>
 <text x="111.76" y="269.24" size="3.81" layer="94">SAMD21</text>
-<text x="76.2" y="142.24" size="3.81" layer="94">PWM Motor Driver</text>
+<text x="76.2" y="139.7" size="3.81" layer="94">PWM Motor Driver</text>
 <text x="187.96" y="60.96" size="1.27" layer="97" rot="R180">VIN: 5V (3.3V is ok if USB is not plugged in.)</text>
 <text x="162.56" y="30.48" size="1.27" layer="97" align="top-left">TLV70233PDBVR
 ----------------
@@ -33341,7 +33341,7 @@ Iout (max): 300mA
 Vin (max): 6.0V
 Vdo (typ): 220mV
 Iq: 35uA</text>
-<text x="93.98" y="137.16" size="1.27" layer="94">A4954</text>
+<text x="93.98" y="132.08" size="1.27" layer="94">A4954</text>
 <text x="50.8" y="63.5" size="3.81" layer="94" ratio="10">Micro USB</text>
 <text x="337.82" y="12.7" size="2.54" layer="94" align="top-left">Joe Church</text>
 <wire x1="2.54" y1="152.4" x2="180.34" y2="152.4" width="0.2032" layer="97" style="longdash"/>
@@ -33426,7 +33426,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <instance part="GND19" gate="1" x="149.86" y="38.1" smashed="yes">
 <attribute name="VALUE" x="147.32" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="96.52" y="114.3"/>
+<instance part="U$1" gate="G$1" x="96.52" y="114.3" smashed="yes"/>
 <instance part="R12" gate="G$1" x="132.08" y="119.38"/>
 <instance part="R13" gate="G$1" x="132.08" y="111.76"/>
 <instance part="C12" gate="G$1" x="127" y="104.14"/>
@@ -33436,7 +33436,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <attribute name="NAME" x="220.98" y="37.338" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="U$2" gate="G$1" x="307.34" y="43.18"/>
-<instance part="U$4" gate="G$1" x="223.52" y="127"/>
+<instance part="U$4" gate="G$1" x="223.52" y="127" smashed="yes"/>
 <instance part="R14" gate="G$1" x="43.18" y="109.22"/>
 <instance part="C14" gate="G$1" x="48.26" y="101.6"/>
 <instance part="C15" gate="G$1" x="55.88" y="101.6"/>

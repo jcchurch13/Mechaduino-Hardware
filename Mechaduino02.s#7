@@ -32056,8 +32056,69 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <circle x="15.5" y="-15.5" radius="3.25" width="0" layer="41"/>
 <circle x="15.5" y="15.5" radius="3.25" width="0" layer="42"/>
 <circle x="15.5" y="-15.5" radius="3.25" width="0" layer="42"/>
-<circle x="-15.5" y="-15.5" radius="3.25" width="0" layer="42"/>
 <circle x="-15.5" y="15.5" radius="3.25" width="0" layer="42"/>
+<polygon width="0.127" layer="41">
+<vertex x="21.5" y="-21.5"/>
+<vertex x="21.5" y="-10.5"/>
+<vertex x="21.5" y="-10"/>
+<vertex x="21.5" y="-9.5"/>
+<vertex x="9.5" y="-21.5"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="21.5" y="21.5"/>
+<vertex x="10.5" y="21.5"/>
+<vertex x="10" y="21.5"/>
+<vertex x="9.5" y="21.5"/>
+<vertex x="21.5" y="9.5"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-21.5" y="21.5"/>
+<vertex x="-21.5" y="10.5"/>
+<vertex x="-21.5" y="10"/>
+<vertex x="-21.5" y="9.5"/>
+<vertex x="-9.5" y="21.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-18" y="26.5"/>
+<vertex x="-18" y="15.5"/>
+<vertex x="-18" y="15"/>
+<vertex x="-18" y="14.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="21.5" y="21.5"/>
+<vertex x="10.5" y="21.5"/>
+<vertex x="10" y="21.5"/>
+<vertex x="9.5" y="21.5"/>
+<vertex x="21.5" y="9.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-21.5" y="21.5"/>
+<vertex x="-21.5" y="10.5"/>
+<vertex x="-21.5" y="10"/>
+<vertex x="-21.5" y="9.5"/>
+<vertex x="-9.5" y="21.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-21.5" y="-21.5"/>
+<vertex x="-10.5" y="-21.5"/>
+<vertex x="-10" y="-21.5"/>
+<vertex x="-9.5" y="-21.5"/>
+<vertex x="-21.5" y="-9.5"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="21.5" y="-21.5"/>
+<vertex x="21.5" y="-10.5"/>
+<vertex x="21.5" y="-10"/>
+<vertex x="21.5" y="-9.5"/>
+<vertex x="9.5" y="-21.5"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-21.5" y="-21.5"/>
+<vertex x="-10.5" y="-21.5"/>
+<vertex x="-10" y="-21.5"/>
+<vertex x="-9.5" y="-21.5"/>
+<vertex x="-21.5" y="-9.5"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -33220,8 +33281,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C19" library="swift" deviceset="CAP" device="0402" value="1.0uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="MF_Connectors" deviceset="HEADER_01X10" device="_PTH_2.54MM">
-<attribute name="LABEL00" value="D3"/>
-<attribute name="LABEL01" value="D2"/>
+<attribute name="LABEL00" value="*D3"/>
+<attribute name="LABEL01" value="*D2"/>
 <attribute name="LABEL02" value="*D1"/>
 <attribute name="LABEL03" value="*D0"/>
 <attribute name="LABEL04" value="A5"/>

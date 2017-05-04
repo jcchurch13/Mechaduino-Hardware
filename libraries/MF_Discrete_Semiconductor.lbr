@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -142,123 +142,95 @@
 </layers>
 <library>
 <packages>
-<package name="TSSOP16">
-<description>&lt;b&gt;TSOP16&lt;/b&gt;&lt;p&gt;
-thin small outline package</description>
-<wire x1="3.1" y1="-2.4" x2="-3" y2="-2.4" width="0.2032" layer="51"/>
-<wire x1="-3" y1="2.6" x2="3.1" y2="2.6" width="0.2032" layer="51"/>
-<wire x1="3.1" y1="-2.4" x2="3.1" y2="2.6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="2.6" x2="-2.8" y2="2.6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="2.6" x2="-3" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-0.5" x2="-3" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-2.4" x2="-2.8" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="2.9" y1="-2.4" x2="3.1" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="3.1" y1="-2.4" x2="3.1" y2="2.6" width="0.2032" layer="21"/>
-<wire x1="3.1" y1="2.6" x2="2.9" y2="2.6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="0.5" x2="-3" y2="-0.5" width="0.2032" layer="21" curve="-180"/>
-<rectangle x1="-2.425" y1="-3.3501" x2="-2.0249" y2="-2.5299" layer="51"/>
-<rectangle x1="-1.775" y1="-3.3501" x2="-1.3749" y2="-2.5299" layer="51"/>
-<rectangle x1="-1.125" y1="-3.3501" x2="-0.725" y2="-2.5299" layer="51"/>
-<rectangle x1="-0.475" y1="-3.3501" x2="-0.075" y2="-2.5299" layer="51"/>
-<rectangle x1="0.175" y1="-3.3501" x2="0.575" y2="-2.5299" layer="51"/>
-<rectangle x1="0.825" y1="-3.3501" x2="1.225" y2="-2.5299" layer="51"/>
-<rectangle x1="1.4749" y1="-3.3501" x2="1.875" y2="-2.5299" layer="51"/>
-<rectangle x1="2.1249" y1="-3.3501" x2="2.525" y2="-2.5299" layer="51"/>
-<rectangle x1="2.1249" y1="2.7299" x2="2.525" y2="3.5501" layer="51"/>
-<rectangle x1="1.4749" y1="2.7299" x2="1.875" y2="3.5501" layer="51"/>
-<rectangle x1="0.825" y1="2.7299" x2="1.225" y2="3.5501" layer="51"/>
-<rectangle x1="0.175" y1="2.7299" x2="0.575" y2="3.5501" layer="51"/>
-<rectangle x1="-0.475" y1="2.7299" x2="-0.075" y2="3.5501" layer="51"/>
-<rectangle x1="-1.125" y1="2.7299" x2="-0.725" y2="3.5501" layer="51"/>
-<rectangle x1="-1.775" y1="2.7299" x2="-1.3749" y2="3.5501" layer="51"/>
-<rectangle x1="-2.425" y1="2.7299" x2="-2.0249" y2="3.5501" layer="51"/>
-<rectangle x1="-2.425" y1="-3.3501" x2="-2.0249" y2="-2.5299" layer="51"/>
-<rectangle x1="-1.775" y1="-3.3501" x2="-1.3749" y2="-2.5299" layer="51"/>
-<rectangle x1="-1.125" y1="-3.3501" x2="-0.725" y2="-2.5299" layer="51"/>
-<rectangle x1="-0.475" y1="-3.3501" x2="-0.075" y2="-2.5299" layer="51"/>
-<rectangle x1="0.175" y1="-3.3501" x2="0.575" y2="-2.5299" layer="51"/>
-<rectangle x1="0.825" y1="-3.3501" x2="1.225" y2="-2.5299" layer="51"/>
-<rectangle x1="1.4749" y1="-3.3501" x2="1.875" y2="-2.5299" layer="51"/>
-<rectangle x1="2.1249" y1="-3.3501" x2="2.525" y2="-2.5299" layer="51"/>
-<rectangle x1="2.1249" y1="2.7299" x2="2.525" y2="3.5501" layer="51"/>
-<rectangle x1="1.4749" y1="2.7299" x2="1.875" y2="3.5501" layer="51"/>
-<rectangle x1="0.825" y1="2.7299" x2="1.225" y2="3.5501" layer="51"/>
-<rectangle x1="0.175" y1="2.7299" x2="0.575" y2="3.5501" layer="51"/>
-<rectangle x1="-0.475" y1="2.7299" x2="-0.075" y2="3.5501" layer="51"/>
-<rectangle x1="-1.125" y1="2.7299" x2="-0.725" y2="3.5501" layer="51"/>
-<rectangle x1="-1.775" y1="2.7299" x2="-1.3749" y2="3.5501" layer="51"/>
-<rectangle x1="-2.425" y1="2.7299" x2="-2.0249" y2="3.5501" layer="51"/>
-<smd name="1" x="-2.225" y="-2.85" dx="0.4" dy="1.6" layer="1"/>
-<smd name="2" x="-1.575" y="-2.85" dx="0.4" dy="1.6" layer="1"/>
-<smd name="3" x="-0.925" y="-2.85" dx="0.4" dy="1.6" layer="1"/>
-<smd name="4" x="-0.275" y="-2.85" dx="0.4" dy="1.6" layer="1"/>
-<smd name="5" x="0.375" y="-2.85" dx="0.4" dy="1.6" layer="1"/>
-<smd name="6" x="1.025" y="-2.85" dx="0.4" dy="1.6" layer="1"/>
-<smd name="7" x="1.675" y="-2.85" dx="0.4" dy="1.6" layer="1"/>
-<smd name="8" x="2.325" y="-2.85" dx="0.4" dy="1.6" layer="1"/>
-<smd name="9" x="2.325" y="3.05" dx="0.4" dy="1.6" layer="1"/>
-<smd name="10" x="1.675" y="3.05" dx="0.4" dy="1.6" layer="1"/>
-<smd name="11" x="1.025" y="3.05" dx="0.4" dy="1.6" layer="1"/>
-<smd name="12" x="0.375" y="3.05" dx="0.4" dy="1.6" layer="1"/>
-<smd name="13" x="-0.275" y="3.05" dx="0.4" dy="1.6" layer="1"/>
-<smd name="14" x="-0.925" y="3.05" dx="0.4" dy="1.6" layer="1"/>
-<smd name="15" x="-1.575" y="3.05" dx="0.4" dy="1.6" layer="1"/>
-<smd name="16" x="-2.225" y="3.05" dx="0.4" dy="1.6" layer="1"/>
-<text x="-1.524" y="-1.27" size="0.6096" layer="25">&gt;NAME</text>
-<text x="-1.524" y="0.889" size="0.6096" layer="27">&gt;VALUE</text>
+<package name="SMA">
+<description>&lt;b&gt;Description:&lt;/b&gt; Footprint for Diodes in SMA Standard.&lt;br/&gt;</description>
+<wire x1="-3.6" y1="1.6" x2="3.6" y2="1.6" width="0.127" layer="21"/>
+<wire x1="3.6" y1="1.6" x2="3.6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-1.6" x2="-3.6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-1.6" x2="-3.6" y2="1.6" width="0.127" layer="21"/>
+<smd name="ANODE" x="2" y="0" dx="2.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="CATHODE" x="-2" y="0" dx="2.5" dy="1.7" layer="1" rot="R180"/>
+<text x="-4.2" y="1.89" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-0.35" y="0"/>
+<vertex x="0.35" y="0.5"/>
+<vertex x="0.35" y="-0.5"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="-4.2" y="1.6"/>
+<vertex x="-3.6" y="1.6"/>
+<vertex x="-3.6" y="-1.6"/>
+<vertex x="-4.2" y="-1.6"/>
+</polygon>
+</package>
+<package name="SOD-123">
+<description>&lt;b&gt;Description:&lt;/b&gt; Footprint for Diodes in SOD-123 Standard.&lt;br/&gt;</description>
+<wire x1="-2.4" y1="0.85" x2="2.4" y2="0.85" width="0.127" layer="21"/>
+<wire x1="2.4" y1="0.85" x2="2.4" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-0.85" x2="-2.4" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-0.85" x2="-2.4" y2="0.85" width="0.127" layer="21"/>
+<smd name="ANODE" x="1.675" y="0" dx="0.85" dy="1.2" layer="1" rot="R180"/>
+<smd name="CATHODE" x="-1.675" y="0" dx="0.85" dy="1.2" layer="1" rot="R180"/>
+<text x="-2.8" y="1.09" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-0.35" y="0"/>
+<vertex x="0.15" y="0.3"/>
+<vertex x="0.15" y="-0.3"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="-2.8" y="0.85"/>
+<vertex x="-2.4" y="0.85"/>
+<vertex x="-2.4" y="-0.85"/>
+<vertex x="-2.8" y="-0.85"/>
+</polygon>
 </package>
 </packages>
 <symbols>
-<symbol name="AVAGODRIVER">
-<wire x1="-25.4" y1="12.7" x2="22.86" y2="12.7" width="0.254" layer="94"/>
-<wire x1="22.86" y1="12.7" x2="22.86" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-10.16" x2="-25.4" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="12.7" width="0.254" layer="94"/>
-<pin name="GND" x="-27.94" y="10.16" length="middle"/>
-<pin name="GND2" x="-27.94" y="-7.62" length="middle"/>
-<pin name="IN1" x="-27.94" y="-2.54" length="middle"/>
-<pin name="IN2" x="-27.94" y="0" length="middle"/>
-<pin name="IN3" x="-27.94" y="5.08" length="middle"/>
-<pin name="IN4" x="-27.94" y="2.54" length="middle"/>
-<pin name="LSS12" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="LSS34" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="OUT1" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="OUT2" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="OUT3" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="OUT4" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="VBB" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="VBB2" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="VREF12" x="-27.94" y="-5.08" length="middle"/>
-<pin name="VREF34" x="-27.94" y="7.62" length="middle"/>
+<symbol name="DIODE">
+<description>&lt;b&gt;Description:&lt;/b&gt; Symbol for Single Diodes.&lt;br/&gt;</description>
+<wire x1="1.016" y1="1.524" x2="1.016" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="-0.762" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-1.524" x2="-0.762" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="1.524" x2="0.762" y2="0" width="0.254" layer="94"/>
+<pin name="ANODE" x="-5.08" y="0" visible="off" length="middle"/>
+<pin name="CATHODE" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<text x="-5.08" y="2.54" size="1.016" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.016" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="-1.524"/>
+<vertex x="-0.762" y="1.524"/>
+<vertex x="0.762" y="0"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AVAGO_DRIVER">
+<deviceset name="DIODE" prefix="D" uservalue="yes">
+<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Discrete_Semiconductor&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Device for Single Packaged Diodes. Manufacture part number (MFG#) can be added via Attributes.&lt;br/&gt;</description>
 <gates>
-<gate name="G$1" symbol="AVAGODRIVER" x="0" y="0"/>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TSSOP16">
+<device name="_SMA" package="SMA">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GND2" pad="8"/>
-<connect gate="G$1" pin="IN1" pad="6"/>
-<connect gate="G$1" pin="IN2" pad="5"/>
-<connect gate="G$1" pin="IN3" pad="3"/>
-<connect gate="G$1" pin="IN4" pad="4"/>
-<connect gate="G$1" pin="LSS12" pad="11"/>
-<connect gate="G$1" pin="LSS34" pad="14"/>
-<connect gate="G$1" pin="OUT1" pad="10"/>
-<connect gate="G$1" pin="OUT2" pad="12"/>
-<connect gate="G$1" pin="OUT3" pad="13"/>
-<connect gate="G$1" pin="OUT4" pad="15"/>
-<connect gate="G$1" pin="VBB" pad="9"/>
-<connect gate="G$1" pin="VBB2" pad="16"/>
-<connect gate="G$1" pin="VREF12" pad="7"/>
-<connect gate="G$1" pin="VREF34" pad="2"/>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG#" value="N/A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SOD-123" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG#" value="N/A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

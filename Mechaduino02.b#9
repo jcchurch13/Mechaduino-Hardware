@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -9810,10 +9810,10 @@ design rules under a new name.</description>
 <element name="C19" library="swift" package="0402-CAP" value="1.0uF" x="16.764" y="18.542" smashed="yes" rot="R180"/>
 <element name="J2" library="MF_Connectors" package="PTH_2.54MM_01X10" value="" x="20.955" y="40.767" smashed="yes">
 <attribute name="LABEL02" value="*D1" x="14.605" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right"/>
-<attribute name="LABEL00" value="D3" x="9.525" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
+<attribute name="LABEL00" value="*D3" x="9.525" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
 <attribute name="LABEL06" value="A3" x="24.765" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
 <attribute name="LABEL05" value="A4" x="22.225" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
-<attribute name="LABEL01" value="D2" x="12.065" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right"/>
+<attribute name="LABEL01" value="*D2" x="12.065" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right"/>
 <attribute name="LABEL08" value="A0" x="29.845" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
 <attribute name="LABEL04" value="A5" x="19.685" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
 <attribute name="LABEL09" value="AREF" x="32.385" y="39.497" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
