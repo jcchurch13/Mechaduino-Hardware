@@ -33348,7 +33348,7 @@ Iq: 35uA</text>
 <text x="417.83" y="16.256" size="1.27" layer="97" rot="R180">Based on: 
 Arduino Zero by Arduino.cc              Arduino M0 by Arduino.org
 Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
-<text x="426.72" y="12.7" size="2.54" layer="94" align="top-left">0.1</text>
+<text x="426.72" y="12.7" size="2.54" layer="94" align="top-left">0.2</text>
 <text x="134.62" y="266.7" size="1.778" layer="97" rot="R180">Arduino Zero Compatible</text>
 <wire x1="180.34" y1="152.4" x2="294.64" y2="152.4" width="0.2032" layer="97" style="longdash"/>
 <wire x1="180.34" y1="78.74" x2="180.34" y2="152.4" width="0.2032" layer="97" style="longdash"/>

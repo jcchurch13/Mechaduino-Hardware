@@ -33331,9 +33331,9 @@ In this library the device names are the same as the pin names of the symbols, t
 USB cable sheild from 
 acting like an antenna.</text>
 <text x="147.32" y="63.5" size="3.81" layer="94" ratio="10">3.3V linear regulator</text>
-<text x="220.98" y="134.62" size="3.81" layer="94">Magnetic Encoder</text>
+<text x="220.98" y="137.16" size="3.81" layer="94">Magnetic Encoder</text>
 <text x="111.76" y="269.24" size="3.81" layer="94">SAMD21</text>
-<text x="76.2" y="142.24" size="3.81" layer="94">PWM Motor Driver</text>
+<text x="76.2" y="139.7" size="3.81" layer="94">PWM Motor Driver</text>
 <text x="187.96" y="60.96" size="1.27" layer="97" rot="R180">VIN: 5V (3.3V is ok if USB is not plugged in.)</text>
 <text x="162.56" y="30.48" size="1.27" layer="97" align="top-left">TLV70233PDBVR
 ----------------
@@ -33341,7 +33341,7 @@ Iout (max): 300mA
 Vin (max): 6.0V
 Vdo (typ): 220mV
 Iq: 35uA</text>
-<text x="93.98" y="137.16" size="1.27" layer="94">A4954</text>
+<text x="93.98" y="132.08" size="1.27" layer="94">A4954</text>
 <text x="50.8" y="63.5" size="3.81" layer="94" ratio="10">Micro USB</text>
 <text x="337.82" y="12.7" size="2.54" layer="94" align="top-left">Joe Church</text>
 <wire x1="2.54" y1="152.4" x2="180.34" y2="152.4" width="0.2032" layer="97" style="longdash"/>
@@ -33426,7 +33426,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <instance part="GND19" gate="1" x="149.86" y="38.1" smashed="yes">
 <attribute name="VALUE" x="147.32" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="96.52" y="114.3"/>
+<instance part="U$1" gate="G$1" x="96.52" y="114.3" smashed="yes"/>
 <instance part="R12" gate="G$1" x="132.08" y="119.38"/>
 <instance part="R13" gate="G$1" x="132.08" y="111.76"/>
 <instance part="C12" gate="G$1" x="127" y="104.14"/>
@@ -33436,7 +33436,7 @@ Neutrino by Rabidprototypes.com    SAMD21 Dev Breakout by Sparkfun.com</text>
 <attribute name="NAME" x="220.98" y="37.338" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="U$2" gate="G$1" x="307.34" y="43.18"/>
-<instance part="U$4" gate="G$1" x="223.52" y="127"/>
+<instance part="U$4" gate="G$1" x="223.52" y="127" smashed="yes"/>
 <instance part="R14" gate="G$1" x="43.18" y="109.22"/>
 <instance part="C14" gate="G$1" x="48.26" y="101.6"/>
 <instance part="C15" gate="G$1" x="55.88" y="101.6"/>
